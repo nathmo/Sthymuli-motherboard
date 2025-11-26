@@ -1,0 +1,7 @@
+*.bak
+*.tmp
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+__pycache__/
+*-backups

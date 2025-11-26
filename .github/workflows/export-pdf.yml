@@ -1,0 +1,59 @@
+name: Export KiCad PDFs
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+
+jobs:
+  export-pdf:
+    runs-on: ubuntu-latest
+    name: Export KiCad PDFs
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install KiCad (latest stable)
+        run: |
+          sudo add-apt-repository --yes ppa:kicad/kicad-9.0-releases
+          sudo apt-get update
+          sudo apt-get install --yes kicad
+
+      - name: Find and export schematics + PCB to PDF
+        run: |
+          mkdir -p exports
+
+          # Export all .kicad_sch files
+          for sch in $(find . -name "*.kicad_sch"); do
+            base=$(basename "$sch" .kicad_sch)
+            out="exports/${base}_schematic.pdf"
+            echo "Exporting schematic $sch -> $out"
+            kicad-cli sch export pdf "$sch" --output "$out"
+          done
+          
+          # Export all .kicad_pcb files
+          for pcb in $(find . -name "*.kicad_pcb"); do
+            base=$(basename "$pcb" .kicad_pcb)
+            out="exports/${base}_layout.pdf"
+            echo "Exporting layout $pcb -> $out"
+            # specify at least one layer (you can add more if you like)
+            kicad-cli pcb export pdf "$pcb" \
+              --output "$out" \
+              --layers F.Cu,B.Cu,Edge.Cuts,F.SilkS,B.SilkS
+          done
+
+
+      - name: Commit and push PDFs back to repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          if [ -n "$(git status --porcelain exports)" ]; then
+            git add exports
+            git commit -m "Auto-export KiCad PDFs"
+            git push
+          else
+            echo "No changes in exports folder."
+          fi
