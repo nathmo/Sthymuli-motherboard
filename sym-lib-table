@@ -1,4 +1,6 @@
 (sym_lib_table
-  (version 0)
+  (version 7)
   (lib (name "Sthymuli-motherboard-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Sthymuli-motherboard-altium-import.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX77818EWZ_T")(type "KiCad")(uri "${KIPRJMOD}/symbol/MAX77818EWZ_T.kicad_sym")(options "")(descr ""))
+  (lib (name "stymuli-motherboard")(type "KiCad")(uri "${KIPRJMOD}/symbol/stymuli-motherboard.kicad_sym")(options "")(descr ""))
 )
