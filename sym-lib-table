@@ -3,4 +3,6 @@
   (lib (name "Sthymuli-motherboard-altium-import")(type "KiCad")(uri "${KIPRJMOD}/Sthymuli-motherboard-altium-import.kicad_sym")(options "")(descr ""))
   (lib (name "MAX77818EWZ_T")(type "KiCad")(uri "${KIPRJMOD}/symbol/MAX77818EWZ_T.kicad_sym")(options "")(descr ""))
   (lib (name "stymuli-motherboard")(type "KiCad")(uri "${KIPRJMOD}/symbol/stymuli-motherboard.kicad_sym")(options "")(descr ""))
+  (lib (name "kitprisme")(type "KiCad")(uri "${KIPRJMOD}/symbol/kitprisme.kicad_sym")(options "")(descr ""))
+  (lib (name "PCA9685PW_118")(type "KiCad")(uri "${KIPRJMOD}/symbol/PCA9685PW_118.kicad_sym")(options "")(descr ""))
 )

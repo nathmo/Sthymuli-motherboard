@@ -25,7 +25,40 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|3911600|1028700|10952c47-7a2c-47fc-9e5d-4d2e1efd16f7|104c01a2-a3aa-4d4c-b098-f5fbd9bfc4dc|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
+        "made explicit to show that the pin has two function"
+      ],
+      [
+        "pin_to_pin|2070100|927100|02ae252e-54dc-41ef-9602-39cd57f402bd|07a4ea3c-e5de-4cc2-90fc-0d80297ea83b|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
+        "this is a an address setting pin, connected to VCC"
+      ],
+      [
+        "power_pin_not_driven|177800|2260600|415c821f-cf49-4fa0-a46f-40620774e302|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "its the USB 5V so its OK"
+      ],
+      [
+        "power_pin_not_driven|177800|2463800|e44d394c-4333-48aa-9706-1d78a7a21cb1|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "battery cell GND is not seed as power output but passive. its OK"
+      ],
+      [
+        "power_pin_not_driven|2044700|1485900|1e6b9c59-6a9f-4662-a643-c168a58fc0da|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "the datasheet say it should be powered that way. idk why but thats how it is"
+      ],
+      [
+        "power_pin_not_driven|3848100|1854200|7492700c-5906-4c44-aba1-fcba5c9ec423|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "this is the output of a diode to get the WS2812 to work with 3V3 logic. its intended"
+      ],
+      [
+        "power_pin_not_driven|4140200|1384300|66caa146-e412-4da2-8610-ce5e0b69a1a5|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "there is an inductor but it is powered trough the VBAt"
+      ],
+      [
+        "power_pin_not_driven|711200|1422400|57513862-bab4-44ba-82fb-08933cd1b835|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "it is, just a sense resistor in serie"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -359,14 +392,44 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Référence"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
