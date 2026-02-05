@@ -849,7 +849,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
+		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -864,7 +864,7 @@
 					)
 				)
 			)
-			(property "Value" "USB_C_Receptacle_USB2.0_14P"
+			(property "Value" "USB_C_Receptacle_USB2.0_16P"
 				(at 0 19.685 0)
 				(effects
 					(font
@@ -890,7 +890,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -917,7 +917,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_0"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_0"
 				(rectangle
 					(start -0.254 -17.78)
 					(end 0.254 -16.764)
@@ -1006,8 +1006,30 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start 10.16 -12.446)
+					(end 9.144 -12.954)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 10.16 -14.986)
+					(end 9.144 -15.494)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_0_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_0_1"
 				(rectangle
 					(start -10.16 17.78)
 					(end 10.16 -17.78)
@@ -1208,7 +1230,7 @@
 					)
 				)
 			)
-			(symbol "USB_C_Receptacle_USB2.0_14P_1_1"
+			(symbol "USB_C_Receptacle_USB2.0_16P_1_1"
 				(pin passive line
 					(at -7.62 -22.86 90)
 					(length 5.08)
@@ -1478,6 +1500,42 @@
 						)
 					)
 					(number "B6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12244,8 +12302,16 @@
 		(uuid "24a66e59-3ffb-48c5-a31a-c903b6e78ab4")
 	)
 	(no_connect
+		(at 43.18 71.12)
+		(uuid "3023da6c-93ff-476c-86fc-c924d72a2d96")
+	)
+	(no_connect
 		(at 50.8 252.73)
 		(uuid "447bd085-6b87-4643-8676-e171b6adb076")
+	)
+	(no_connect
+		(at 43.18 68.58)
+		(uuid "447fb174-e6da-48a3-8c78-1c6b419f5f92")
 	)
 	(no_connect
 		(at 50.8 273.05)
@@ -25805,7 +25871,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "06fd70e0-96ee-4bd4-a626-404620142e79")
 		(property "Reference" "Q4"
 			(at 334.01 280.67 90)
@@ -25816,7 +25881,7 @@
 			)
 		)
 		(property "Value" "NX7002AK"
-			(at 334.01 283.21 90)
+			(at 331.978 282.956 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26070,6 +26135,119 @@
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
 					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(at 27.94 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08d74587-65ec-412e-b8a3-e74b2dd8c876")
+		(property "Reference" "J5"
+			(at 27.94 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_C_Receptacle_USB2.0_16P"
+			(at 27.94 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+			(at 31.75 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 27.94 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B4"
+			(uuid "517f0067-7e84-411b-a42d-8e4af44f7231")
+		)
+		(pin "A8"
+			(uuid "5250e65a-ccc8-4736-afb4-9fd5b7501fea")
+		)
+		(pin "B9"
+			(uuid "ed8a8016-5e86-4dec-8b1a-5bb012832c3d")
+		)
+		(pin "A5"
+			(uuid "301d6adf-5f94-4a17-a0e9-9630a1a601e5")
+		)
+		(pin "B7"
+			(uuid "41b64a78-9d71-41b9-b651-516bcd7de427")
+		)
+		(pin "B6"
+			(uuid "9f94afa8-8554-43e8-90f8-be882a700192")
+		)
+		(pin "A4"
+			(uuid "f43d1350-23dd-4fb4-8551-51ff27fb1bf0")
+		)
+		(pin "A9"
+			(uuid "3b7d0657-4827-4c2b-937c-2d05803640cc")
+		)
+		(pin "S1"
+			(uuid "5b4720e7-574a-4ea9-9634-c072d95a3085")
+		)
+		(pin "A1"
+			(uuid "82fd405c-b6e5-4f21-9f4f-1bc29539236f")
+		)
+		(pin "A6"
+			(uuid "6a86b6d5-eb6d-45b8-aa30-cdb670d7a527")
+		)
+		(pin "A7"
+			(uuid "de64eb34-aafd-4a9a-8b8b-f4663787660b")
+		)
+		(pin "B5"
+			(uuid "3136be39-f082-46cb-a774-c8a1391c20ef")
+		)
+		(pin "B8"
+			(uuid "4aedc9d2-93d9-4191-8ce8-52b3d6b6fe19")
+		)
+		(pin "A12"
+			(uuid "4731212d-39d5-40bb-ae72-132db46b78ec")
+		)
+		(pin "B1"
+			(uuid "c0e7778b-e3af-4ae6-a36c-07f642842844")
+		)
+		(pin "B12"
+			(uuid "0524221d-561a-49fb-92ca-7793743b5a08")
+		)
+		(instances
+			(project ""
+				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -29472,7 +29650,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 338.328 302.768 90)
+			(at 340.36 302.514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29604,7 +29782,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 338.328 323.088 90)
+			(at 340.36 323.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30015,8 +30193,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "51pF"
-			(at 320.802 135.128 90)
+		(property "Value" "100pF"
+			(at 319.024 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32504,7 +32682,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 338.328 343.408 90)
+			(at 340.106 343.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35104,113 +35282,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_14P")
-		(at 27.94 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "683aaa42-7006-44fe-a911-de2800bff275")
-		(property "Reference" "J1"
-			(at 27.94 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_C_Receptacle_USB2.0_14P"
-			(at 27.94 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 31.75 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 31.75 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
-			(at 27.94 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A4"
-			(uuid "0ee32881-e52e-47a5-9d03-20d52ac9b1e1")
-		)
-		(pin "A9"
-			(uuid "5693038e-fdce-4d65-859c-f33dd394eacf")
-		)
-		(pin "B7"
-			(uuid "a69ea268-0d0c-459e-9e0e-d5a5d6c27dda")
-		)
-		(pin "S1"
-			(uuid "41fa48b4-222a-4255-88bc-9caf1e99fbab")
-		)
-		(pin "B12"
-			(uuid "f6c365fb-1238-4e4f-93eb-92c5601c454d")
-		)
-		(pin "B1"
-			(uuid "e83c6d29-3abf-4118-b030-7ca16a0e09a9")
-		)
-		(pin "A12"
-			(uuid "b307c88c-87d7-4cf0-b7dc-a391ca0751a7")
-		)
-		(pin "A1"
-			(uuid "a34acc32-5e17-4135-b5f0-471f977e3ea9")
-		)
-		(pin "A7"
-			(uuid "07214b75-bff8-4313-9834-b566f79107bf")
-		)
-		(pin "B5"
-			(uuid "9493f711-77e1-4183-8702-ce8cecf81db1")
-		)
-		(pin "A5"
-			(uuid "5850ef32-78f8-4978-a794-9a9625ce8de2")
-		)
-		(pin "B9"
-			(uuid "8d64b5ae-2e42-48ce-bb58-2bd8f1f3cf20")
-		)
-		(pin "A6"
-			(uuid "d8d84745-93c5-4c61-8061-2706eb81dee1")
-		)
-		(pin "B6"
-			(uuid "84dbd9b0-b3ed-4c25-af32-3a8f6d9a8b27")
-		)
-		(pin "B4"
-			(uuid "9d809795-55f2-4c15-ab0e-745eb962e3ce")
-		)
-		(instances
-			(project ""
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
 		(at 334.01 375.92 270)
 		(unit 1)
@@ -35218,7 +35289,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "686f0a2e-caea-44b3-bcfb-44c05da5b143")
 		(property "Reference" "Q9"
 			(at 334.01 382.27 90)
@@ -35229,7 +35299,7 @@
 			)
 		)
 		(property "Value" "NX7002AK"
-			(at 334.01 384.81 90)
+			(at 332.486 384.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35900,7 +35970,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6ef0ec38-c5d0-4724-b4d5-786783406ec9")
 		(property "Reference" "Q5"
 			(at 334.01 300.99 90)
@@ -35911,7 +35980,7 @@
 			)
 		)
 		(property "Value" "NX7002AK"
-			(at 334.01 303.53 90)
+			(at 332.994 303.276 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38184,7 +38253,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8b7b6baa-f6ad-4822-99d0-54d36f8e579f")
 		(property "Reference" "Q6"
 			(at 334.01 321.31 90)
@@ -38195,7 +38263,7 @@
 			)
 		)
 		(property "Value" "NX7002AK"
-			(at 334.01 323.85 90)
+			(at 332.74 324.104 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39747,7 +39815,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9aa13314-4a07-4323-8e86-ed4550a22799")
 		(property "Reference" "Q3"
 			(at 334.01 260.35 90)
@@ -39758,7 +39825,7 @@
 			)
 		)
 		(property "Value" "NX7002AK"
-			(at 334.01 262.89 90)
+			(at 332.486 262.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40175,7 +40242,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 338.328 363.728 90)
+			(at 340.868 363.728 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43079,7 +43146,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "be5e8bff-16e4-4a59-b0ea-10e03e54e18e")
 		(property "Reference" "Q8"
 			(at 334.01 361.95 90)
@@ -43090,7 +43156,7 @@
 			)
 		)
 		(property "Value" "NX7002AK"
-			(at 334.01 364.49 90)
+			(at 332.74 364.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44504,7 +44570,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 338.328 384.048 90)
+			(at 340.868 383.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47771,7 +47837,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 338.328 282.448 90)
+			(at 340.614 282.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49548,7 +49614,7 @@
 			)
 		)
 		(property "Value" "27R"
-			(at 338.328 262.128 90)
+			(at 340.36 262.128 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49948,7 +50014,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fc1d099d-b540-4928-96f0-ad5c72200ae1")
 		(property "Reference" "Q7"
 			(at 334.01 341.63 90)
@@ -49959,7 +50024,7 @@
 			)
 		)
 		(property "Value" "NX7002AK"
-			(at 334.01 344.17 90)
+			(at 332.486 344.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
