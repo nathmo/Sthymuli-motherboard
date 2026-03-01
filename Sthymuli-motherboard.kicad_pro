@@ -228,36 +228,92 @@
   "erc": {
     "erc_exclusions": [
       [
-        "multiple_net_names|3911600|1028700|10952c47-7a2c-47fc-9e5d-4d2e1efd16f7|104c01a2-a3aa-4d4c-b098-f5fbd9bfc4dc|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
-        "made explicit to show that the pin has two function"
+        "pin_to_pin|3581400|1981200|02ae252e-54dc-41ef-9602-39cd57f402bd|bb9de11a-7dfe-499f-b87f-cdf631248aa8|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
+        "its to set the address, as request by datasheet"
       ],
       [
-        "pin_to_pin|2070100|927100|02ae252e-54dc-41ef-9602-39cd57f402bd|07a4ea3c-e5de-4cc2-90fc-0d80297ea83b|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
-        "this is a an address setting pin, connected to VCC"
+        "pin_to_pin|774700|660400|ddd2f545-d8e8-4538-a028-fdc960f1a971|bb9de11a-7dfe-499f-b87f-cdf631248aa8|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
+        "its a backup, both chip should not be populated at the same time."
       ],
       [
-        "power_pin_not_driven|177800|2260600|415c821f-cf49-4fa0-a46f-40620774e302|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "its the USB 5V so its OK"
+        "power_pin_not_driven|1104900|2692400|bc601aae-79d5-4a6e-8e3c-d6fcf94119bf|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "as requested by the schematic."
       ],
       [
-        "power_pin_not_driven|177800|2463800|e44d394c-4333-48aa-9706-1d78a7a21cb1|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "battery cell GND is not seed as power output but passive. its OK"
+        "power_pin_not_driven|1422400|1143000|c51f2c3d-3d57-41c6-92e9-ff498acbefdb|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "resistor in serie. its all good"
       ],
       [
-        "power_pin_not_driven|2044700|1485900|1e6b9c59-6a9f-4662-a643-c168a58fc0da|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "the datasheet say it should be powered that way. idk why but thats how it is"
+        "power_pin_not_driven|1422400|1168400|f9a27714-a322-4613-87c0-de7c6832eb3a|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "resistor in serie. its all good"
       ],
       [
-        "power_pin_not_driven|3848100|1854200|7492700c-5906-4c44-aba1-fcba5c9ec423|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "this is the output of a diode to get the WS2812 to work with 3V3 logic. its intended"
+        "power_pin_not_driven|1422400|1193800|f06888d7-5be8-4ccd-9d94-0df3e92b9a2a|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "resistor in serie. its all good"
       ],
       [
-        "power_pin_not_driven|4140200|1384300|66caa146-e412-4da2-8610-ce5e0b69a1a5|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "there is an inductor but it is powered trough the VBAt"
+        "power_pin_not_driven|1422400|1219200|62700428-fd4c-45d8-8e3f-125c018c253e|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "resistor in serie. its all good"
       ],
       [
-        "power_pin_not_driven|711200|1422400|57513862-bab4-44ba-82fb-08933cd1b835|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "it is, just a sense resistor in serie"
+        "power_pin_not_driven|1562100|2578100|745cc9f2-42a3-4445-b74f-0b3b8b6491b2|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "as requested by the datasheet."
+      ],
+      [
+        "power_pin_not_driven|1663700|990600|2585082c-adc4-44ec-97b2-7862c8d7a744|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "as requested by the schematic."
+      ],
+      [
+        "power_pin_not_driven|1689100|990600|7b4b75ad-e503-429d-9c45-cdd80ee3a300|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "as requested by the schematic."
+      ],
+      [
+        "power_pin_not_driven|1930400|1193800|d90b1453-9986-4fdc-82eb-f8bd1ee0256e|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "as requested by the schematic."
+      ],
+      [
+        "power_pin_not_driven|1930400|1219200|952e48a1-c4dc-45cd-9c9e-3f9791ac5a53|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "as requested by the schematic."
+      ],
+      [
+        "power_pin_not_driven|241300|927100|6fc17006-8509-45d9-8040-ae049db74470|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "serie resistor, its all good"
+      ],
+      [
+        "power_pin_not_driven|2781300|1879600|1e6b9c59-6a9f-4662-a643-c168a58fc0da|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "as requested by the datasheet."
+      ],
+      [
+        "power_pin_not_driven|342900|1765300|40a1da6b-054c-4226-b2e8-a04c16332ca9|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "kicad see battery cell as not power output. no isse here"
+      ],
+      [
+        "power_pin_not_driven|4343400|1473200|3acb386b-2b1a-415b-b51d-7ad71251dd52|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "its a tie for the groundplane, all good"
+      ],
+      [
+        "power_pin_not_driven|4483100|1905000|7492700c-5906-4c44-aba1-fcba5c9ec423|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "this is intended, to drop the voltage for the first led to make it 3v3 compatible"
+      ],
+      [
+        "power_pin_not_driven|457200|482600|ae0a3e3b-337e-426d-b3a5-737db8d68806|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "VBUS from USB is a power pin..."
+      ],
+      [
+        "power_pin_not_driven|4800600|1346200|66caa146-e412-4da2-8610-ce5e0b69a1a5|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "inductor in serie. as required by datasheet"
+      ],
+      [
+        "power_pin_not_driven|520700|3454400|e04955c3-992a-46e6-bf12-de48fda13591|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "as requested by the datasheet."
+      ],
+      [
+        "power_pin_not_driven|622300|660400|1116ef9b-5dbc-463a-9a68-3fed008b0261|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "serie resistor. all good"
+      ],
+      [
+        "power_pin_not_driven|673100|444500|4ff1fe1a-1ad3-4a26-b372-be705dd41255|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
+        "there is just the debug resistor in serie but its still good"
       ]
     ],
     "meta": {
