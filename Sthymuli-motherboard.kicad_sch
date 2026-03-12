@@ -28715,7 +28715,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
-		(at 401.32 273.05 270)
+		(at 401.32 273.05 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28731,14 +28732,14 @@
 			)
 		)
 		(property "Value" "NX7002AK"
-			(at 399.288 281.686 90)
+			(at 403.352 281.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 401.32 273.05 0)
 			(effects
 				(font
@@ -28878,7 +28879,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 			(at 154.94 87.63 0)
 			(effects
 				(font
@@ -29090,7 +29091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 31.75 66.04 0)
 			(effects
 				(font
@@ -29418,7 +29419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
 			(at 107.95 378.46 0)
 			(effects
 				(font
@@ -29913,7 +29914,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:ITR_9909_Horizontal"
 			(at 375.92 269.24 0)
 			(effects
 				(font
@@ -30925,7 +30926,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BQ76905RGRR:IC_BQ76905RGRR"
+		(property "Footprint" "Package_DFN_QFN:Texas_RGP0020H_VQFN-20-1EP_4x4mm_P0.5mm_EP2.4x2.4mm"
 			(at 90.17 248.92 0)
 			(effects
 				(font
@@ -32053,7 +32054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 127 250.19 0)
 			(effects
 				(font
@@ -32267,7 +32268,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:XKB5858"
 			(at 138.43 391.16 0)
 			(effects
 				(font
@@ -32856,7 +32857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 231.14 374.65 0)
 			(effects
 				(font
@@ -32996,7 +32997,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:ITR_9909_Vertical"
 			(at 375.92 350.52 0)
 			(effects
 				(font
@@ -33337,7 +33338,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:ITR_9909_Vertical"
 			(at 375.92 391.16 0)
 			(effects
 				(font
@@ -34499,7 +34500,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 			(at 102.87 294.64 0)
 			(effects
 				(font
@@ -34969,7 +34970,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:XKB5858"
 			(at 151.13 391.16 0)
 			(effects
 				(font
@@ -35309,7 +35310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:Battery_Holder_18650_robop"
 			(at 34.29 241.046 90)
 			(effects
 				(font
@@ -36290,7 +36291,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:Battery_Holder_18650_robop"
 			(at 34.29 291.846 90)
 			(effects
 				(font
@@ -37211,7 +37212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:XKB5858"
 			(at 320.04 234.95 0)
 			(effects
 				(font
@@ -37949,7 +37950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:Battery_Holder_18650_robop"
 			(at 34.29 215.646 90)
 			(effects
 				(font
@@ -38579,7 +38580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 37.592 257.81 90)
 			(effects
 				(font
@@ -38915,7 +38916,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 			(at 90.17 294.64 0)
 			(effects
 				(font
@@ -39791,7 +39792,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:ITR_9909_Horizontal"
 			(at 375.92 248.92 0)
 			(effects
 				(font
@@ -40009,7 +40010,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:ITR_9909_Horizontal"
 			(at 375.92 309.88 0)
 			(effects
 				(font
@@ -40203,7 +40204,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
-		(at 401.32 374.65 270)
+		(at 401.32 374.65 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40219,14 +40221,14 @@
 			)
 		)
 		(property "Value" "NX7002AK"
-			(at 399.796 383.54 90)
+			(at 402.844 383.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 401.32 374.65 0)
 			(effects
 				(font
@@ -40373,7 +40375,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:XKB5858"
 			(at 294.64 247.65 0)
 			(effects
 				(font
@@ -40510,7 +40512,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_4x4mm_P0.4mm_EP2.9x2.9mm"
 			(at 167.64 124.46 0)
 			(effects
 				(font
@@ -40806,7 +40808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 39.37 241.3 0)
 			(effects
 				(font
@@ -41074,7 +41076,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 45.72 190.5 0)
 			(effects
 				(font
@@ -41136,7 +41138,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
-		(at 401.32 293.37 270)
+		(at 401.32 293.37 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41152,14 +41155,14 @@
 			)
 		)
 		(property "Value" "NX7002AK"
-			(at 400.304 302.006 90)
+			(at 402.336 302.006 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 401.32 293.37 0)
 			(effects
 				(font
@@ -41470,7 +41473,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 			(at 198.12 76.2 0)
 			(effects
 				(font
@@ -42365,7 +42368,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:ITR_9909_Vertical"
 			(at 375.92 370.84 0)
 			(effects
 				(font
@@ -43276,7 +43279,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 37.592 207.01 90)
 			(effects
 				(font
@@ -44087,7 +44090,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
-		(at 401.32 313.69 270)
+		(at 401.32 313.69 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44103,14 +44107,14 @@
 			)
 		)
 		(property "Value" "NX7002AK"
-			(at 400.05 322.834 90)
+			(at 402.59 322.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 401.32 313.69 0)
 			(effects
 				(font
@@ -45440,7 +45444,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
-		(at 401.32 394.97 270)
+		(at 401.32 394.97 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45464,7 +45469,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 401.32 394.97 0)
 			(effects
 				(font
@@ -45511,7 +45516,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
-		(at 401.32 252.73 270)
+		(at 401.32 252.73 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45527,14 +45533,14 @@
 			)
 		)
 		(property "Value" "NX7002AK"
-			(at 399.796 261.62 90)
+			(at 402.844 261.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 401.32 252.73 0)
 			(effects
 				(font
@@ -45607,7 +45613,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 37.592 232.41 90)
 			(effects
 				(font
@@ -45676,7 +45682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:XKB5858"
 			(at 314.96 237.49 0)
 			(effects
 				(font
@@ -47316,7 +47322,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 45.72 195.58 0)
 			(effects
 				(font
@@ -49475,7 +49481,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DFN_QFN:QFN-28-1EP_4x4mm_P0.45mm_EP2.4x2.4mm"
 			(at 492.76 106.68 0)
 			(effects
 				(font
@@ -49666,7 +49672,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
-		(at 401.32 354.33 270)
+		(at 401.32 354.33 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -49682,14 +49689,14 @@
 			)
 		)
 		(property "Value" "NX7002AK"
-			(at 400.05 363.22 90)
+			(at 402.59 363.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 401.32 354.33 0)
 			(effects
 				(font
@@ -49827,7 +49834,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 			(at 232.41 113.03 0)
 			(effects
 				(font
@@ -50202,7 +50209,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:Battery_Holder_18650_robop"
 			(at 34.29 266.446 90)
 			(effects
 				(font
@@ -50496,7 +50503,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 448.31 184.15 0)
 			(effects
 				(font
@@ -50648,7 +50655,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:XKB5858"
 			(at 325.12 232.41 0)
 			(effects
 				(font
@@ -51052,7 +51059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:XKB5858"
 			(at 309.88 240.03 0)
 			(effects
 				(font
@@ -52034,7 +52041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:ITR_9909_Vertical"
 			(at 375.92 330.2 0)
 			(effects
 				(font
@@ -52110,7 +52117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 39.37 215.9 0)
 			(effects
 				(font
@@ -52244,7 +52251,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:XKB5858"
 			(at 299.72 245.11 0)
 			(effects
 				(font
@@ -52920,7 +52927,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 			(at 184.15 87.63 0)
 			(effects
 				(font
@@ -55281,7 +55288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 39.37 266.7 0)
 			(effects
 				(font
@@ -56664,7 +56671,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:ITR_9909_Horizontal"
 			(at 375.92 289.56 0)
 			(effects
 				(font
@@ -56873,7 +56880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:XKB5858"
 			(at 304.8 242.57 0)
 			(effects
 				(font
@@ -57206,7 +57213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:XKB5858"
 			(at 330.2 229.87 0)
 			(effects
 				(font
@@ -57755,7 +57762,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 37.592 283.21 90)
 			(effects
 				(font
@@ -57824,7 +57831,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 39.37 292.1 0)
 			(effects
 				(font
@@ -57933,7 +57940,8 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
-		(at 401.32 334.01 270)
+		(at 401.32 334.01 90)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -57949,14 +57957,14 @@
 			)
 		)
 		(property "Value" "NX7002AK"
-			(at 399.796 342.9 90)
+			(at 402.844 342.9 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 401.32 334.01 0)
 			(effects
 				(font
@@ -58229,7 +58237,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 			(at 149.86 76.2 0)
 			(effects
 				(font
