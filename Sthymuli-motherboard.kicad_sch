@@ -10746,9 +10746,9 @@
 		)
 		(uuid "747f2b12-02b0-4de2-a70e-d4a178d11ba6")
 	)
-	(text "600 Ohms AC\n2A\n0.1 Ohm CC"
+	(text "600 Ohms AC\n2A\n0.1 Ohm CC\nXRSQ1918-25mH-V-1013"
 		(exclude_from_sim no)
-		(at 458.724 141.224 0)
+		(at 453.136 142.494 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -27902,7 +27902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 101.092 139.7 90)
 			(effects
 				(font
@@ -28178,7 +28178,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "024248a5-ac7a-4e89-9bc4-1ca7bc2d91d8")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0129"
 			(at 480.06 342.9 0)
 			(effects
 				(font
@@ -28228,7 +28228,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0128")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -28261,7 +28261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 449.2752 85.09 0)
 			(effects
 				(font
@@ -28331,7 +28331,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 74.422 142.24 90)
 			(effects
 				(font
@@ -28588,7 +28588,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0582b9c1-b85c-413f-97c7-f17905d271d1")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0134"
 			(at 501.65 195.58 0)
 			(effects
 				(font
@@ -28638,7 +28638,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0133")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -28671,7 +28671,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 481.0252 284.48 0)
 			(effects
 				(font
@@ -28810,7 +28810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 122.8852 143.51 0)
 			(effects
 				(font
@@ -29203,7 +29203,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 55.88 192.278 90)
 			(effects
 				(font
@@ -29348,7 +29348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 352.0948 72.39 0)
 			(effects
 				(font
@@ -29631,7 +29631,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220K"
+		(property "Value" "270K"
 			(at 93.98 138.4299 0)
 			(effects
 				(font
@@ -29640,7 +29640,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 89.662 137.16 90)
 			(effects
 				(font
@@ -29710,7 +29710,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 18.7452 346.71 0)
 			(effects
 				(font
@@ -29777,7 +29777,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 270.51 364.1852 0)
 			(effects
 				(font
@@ -29837,8 +29837,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100"
-			(at 298.45 183.388 90)
+		(property "Value" "100R"
+			(at 298.45 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29846,7 +29846,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 300.228 181.61 90)
 			(effects
 				(font
@@ -30184,7 +30184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 97.4852 100.33 0)
 			(effects
 				(font
@@ -30389,7 +30389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 367.3348 72.39 0)
 			(effects
 				(font
@@ -30440,7 +30440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10d5e7f3-d49c-4c82-9918-1331ab92b248")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0138"
 			(at 518.16 195.58 0)
 			(effects
 				(font
@@ -30490,7 +30490,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0137")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -30523,7 +30523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 552.1452 187.96 0)
 			(effects
 				(font
@@ -30658,7 +30658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 127.762 139.7 90)
 			(effects
 				(font
@@ -30842,7 +30842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14ea5de0-e0eb-4fe7-b15a-706017d77f5b")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR0153"
 			(at 570.23 115.57 0)
 			(effects
 				(font
@@ -30892,7 +30892,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0152")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -30910,7 +30910,7 @@
 		(fields_autoplaced yes)
 		(uuid "1756d1fc-2f26-4e5b-b2e1-5a2dbdc1aeca")
 		(property "Reference" "U3"
-			(at 90.17 276.86 0)
+			(at 90.17 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30918,7 +30918,7 @@
 			)
 		)
 		(property "Value" "BQ76905RGRR"
-			(at 90.17 274.32 0)
+			(at 90.17 223.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31172,7 +31172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 464.5152 284.48 0)
 			(effects
 				(font
@@ -31373,7 +31373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 448.0052 284.48 0)
 			(effects
 				(font
@@ -31517,7 +31517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 431.4952 238.76 0)
 			(effects
 				(font
@@ -31634,7 +31634,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e2ec234-0ff0-4146-a537-a8a50a33dda5")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0148"
 			(at 551.18 195.58 0)
 			(effects
 				(font
@@ -31684,7 +31684,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0147")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -31718,7 +31718,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 341.122 82.55 90)
 			(effects
 				(font
@@ -31918,7 +31918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 191.262 146.05 90)
 			(effects
 				(font
@@ -32122,7 +32122,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 51.308 64.77 90)
 			(effects
 				(font
@@ -32403,7 +32403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 221.742 233.68 90)
 			(effects
 				(font
@@ -32529,7 +32529,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "74HC4051"
 			(at 322.58 291.338 0)
 			(effects
 				(font
@@ -32649,7 +32649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 210.82 126.0348 0)
 			(effects
 				(font
@@ -32718,7 +32718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 160.9852 199.39 0)
 			(effects
 				(font
@@ -32787,7 +32787,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 434.0352 336.55 0)
 			(effects
 				(font
@@ -32929,7 +32929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 346.4052 198.12 0)
 			(effects
 				(font
@@ -33069,7 +33069,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 407.67 305.308 90)
 			(effects
 				(font
@@ -33138,7 +33138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 130.5052 153.67 0)
 			(effects
 				(font
@@ -33270,7 +33270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 407.67 325.628 90)
 			(effects
 				(font
@@ -33543,7 +33543,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 110.1852 100.33 0)
 			(effects
 				(font
@@ -33594,7 +33594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2afb6bee-a180-4b69-92b7-34a4c83acb78")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0146"
 			(at 546.1 292.1 0)
 			(effects
 				(font
@@ -33644,7 +33644,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0145")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -33675,7 +33675,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 71.12 282.2448 0)
 			(effects
 				(font
@@ -33877,7 +33877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 113.9952 143.51 0)
 			(effects
 				(font
@@ -34019,7 +34019,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 351.79 345.948 90)
 			(effects
 				(font
@@ -34285,7 +34285,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "306ce842-2f1b-4911-a9cd-554c6fe6c2c3")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0147"
 			(at 546.1 342.9 0)
 			(effects
 				(font
@@ -34335,7 +34335,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0146")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -34350,7 +34350,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30e6b170-7b82-424e-97b2-6cc55605b262")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0141"
 			(at 529.59 342.9 0)
 			(effects
 				(font
@@ -34400,7 +34400,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0140")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -34431,7 +34431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 54.9148 213.36 0)
 			(effects
 				(font
@@ -34553,7 +34553,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32275196-f937-48de-9054-5f0746a2fd3d")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0133"
 			(at 496.57 342.9 0)
 			(effects
 				(font
@@ -34603,7 +34603,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0132")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -34700,7 +34700,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 184.4548 259.08 0)
 			(effects
 				(font
@@ -34751,7 +34751,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3496f4d9-c424-4d90-ac83-0cee9d16552f")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0139"
 			(at 528.32 245.11 0)
 			(effects
 				(font
@@ -34801,7 +34801,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0138")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -35038,7 +35038,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 82.042 292.1 90)
 			(effects
 				(font
@@ -35171,7 +35171,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 48.26 202.438 90)
 			(effects
 				(font
@@ -35240,7 +35240,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 63.1952 205.74 0)
 			(effects
 				(font
@@ -35462,7 +35462,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b5c30c1-7e7c-4906-b341-5c960f22a064")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0144"
 			(at 534.67 195.58 0)
 			(effects
 				(font
@@ -35512,7 +35512,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0143")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -35612,7 +35612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 351.79 366.268 90)
 			(effects
 				(font
@@ -35746,7 +35746,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 545.7952 237.49 0)
 			(effects
 				(font
@@ -35879,7 +35879,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 206.0448 217.17 0)
 			(effects
 				(font
@@ -35948,7 +35948,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 547.0652 335.28 0)
 			(effects
 				(font
@@ -35999,7 +35999,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3f51fb4e-f3dd-49f4-8a32-d7c3b35ed979")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR0152"
 			(at 567.69 195.58 0)
 			(effects
 				(font
@@ -36049,7 +36049,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0151")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -36156,7 +36156,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 205.4352 149.86 0)
 			(effects
 				(font
@@ -36207,7 +36207,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "40fe5d23-b156-4332-a7d1-c12661dac054")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0127"
 			(at 478.79 245.11 0)
 			(effects
 				(font
@@ -36257,7 +36257,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0126")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -36584,7 +36584,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "31.6K"
+		(property "Value" "47K"
 			(at 204.47 264.1599 0)
 			(effects
 				(font
@@ -36593,7 +36593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 200.152 262.89 90)
 			(effects
 				(font
@@ -36660,7 +36660,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 93.218 398.78 90)
 			(effects
 				(font
@@ -36867,7 +36867,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 52.3748 259.08 0)
 			(effects
 				(font
@@ -36994,7 +36994,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "15K"
 			(at 204.47 276.8599 0)
 			(effects
 				(font
@@ -37003,7 +37003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 200.152 275.59 90)
 			(effects
 				(font
@@ -37072,7 +37072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 514.0452 284.48 0)
 			(effects
 				(font
@@ -37142,7 +37142,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 31.4452 346.71 0)
 			(effects
 				(font
@@ -37278,7 +37278,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 407.67 345.948 90)
 			(effects
 				(font
@@ -37410,7 +37410,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 71.12 275.8948 0)
 			(effects
 				(font
@@ -37479,7 +37479,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 116.84 284.988 90)
 			(effects
 				(font
@@ -37744,7 +37744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 562.3052 237.49 0)
 			(effects
 				(font
@@ -37814,7 +37814,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 367.3348 86.36 0)
 			(effects
 				(font
@@ -38043,7 +38043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 95.758 398.78 90)
 			(effects
 				(font
@@ -38241,7 +38241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 351.79 284.988 90)
 			(effects
 				(font
@@ -38310,7 +38310,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 514.0452 335.28 0)
 			(effects
 				(font
@@ -38426,7 +38426,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59d93ca4-e741-4640-af04-c0405155d86b")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0145"
 			(at 544.83 245.11 0)
 			(effects
 				(font
@@ -38476,7 +38476,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0144")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -38509,7 +38509,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 173.6852 199.39 0)
 			(effects
 				(font
@@ -38648,7 +38648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 481.0252 335.28 0)
 			(effects
 				(font
@@ -38716,7 +38716,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 48.26 227.838 90)
 			(effects
 				(font
@@ -38783,7 +38783,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 59.182 289.56 90)
 			(effects
 				(font
@@ -38985,7 +38985,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 55.88 197.358 90)
 			(effects
 				(font
@@ -39054,7 +39054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 200.3552 149.86 0)
 			(effects
 				(font
@@ -39106,7 +39106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e81009b-33ce-40d7-a06a-8b98c2002c96")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR0124"
 			(at 467.36 138.43 0)
 			(effects
 				(font
@@ -39156,7 +39156,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0153")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -39246,7 +39246,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 nF"
+		(property "Value" "10nF"
 			(at 256.54 288.29 0)
 			(effects
 				(font
@@ -39255,7 +39255,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 263.8552 289.56 0)
 			(effects
 				(font
@@ -39455,7 +39455,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 563.5752 335.28 0)
 			(effects
 				(font
@@ -39524,7 +39524,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 103.8352 100.33 0)
 			(effects
 				(font
@@ -39658,7 +39658,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 475.9452 157.48 0)
 			(effects
 				(font
@@ -39942,7 +39942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 171.1452 394.97 0)
 			(effects
 				(font
@@ -40084,7 +40084,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 60.96 49.022 90)
 			(effects
 				(font
@@ -40440,7 +40440,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 49.53 298.958 90)
 			(effects
 				(font
@@ -40501,7 +40501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "BQ25713"
 			(at 176.1333 152.4 0)
 			(effects
 				(font
@@ -40670,7 +40670,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 290.83 381.762 90)
 			(effects
 				(font
@@ -40857,7 +40857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d2b74d4-8cef-4c89-8ef9-7c1cf372c0ce")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0131"
 			(at 495.3 245.11 0)
 			(effects
 				(font
@@ -40907,7 +40907,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0130")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -41006,7 +41006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 479.7552 237.49 0)
 			(effects
 				(font
@@ -41402,7 +41402,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 167.3352 199.39 0)
 			(effects
 				(font
@@ -41540,7 +41540,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 351.79 264.668 90)
 			(effects
 				(font
@@ -41676,7 +41676,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 384.302 69.85 90)
 			(effects
 				(font
@@ -41743,7 +41743,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 458.978 82.55 90)
 			(effects
 				(font
@@ -41950,7 +41950,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 52.3748 302.26 0)
 			(effects
 				(font
@@ -42020,7 +42020,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 352.0948 86.36 0)
 			(effects
 				(font
@@ -42090,7 +42090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 74.422 130.81 90)
 			(effects
 				(font
@@ -42159,7 +42159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 469.5952 187.96 0)
 			(effects
 				(font
@@ -42229,7 +42229,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 153.3652 279.4 0)
 			(effects
 				(font
@@ -42298,7 +42298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 164.7952 91.44 0)
 			(effects
 				(font
@@ -42511,7 +42511,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "383K"
+		(property "Value" "470K"
 			(at 93.98 128.2699 0)
 			(effects
 				(font
@@ -42520,7 +42520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 89.662 127 90)
 			(effects
 				(font
@@ -42587,7 +42587,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 75.438 289.56 90)
 			(effects
 				(font
@@ -42794,7 +42794,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 351.79 305.308 90)
 			(effects
 				(font
@@ -42863,7 +42863,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 236.22 129.8448 0)
 			(effects
 				(font
@@ -42998,7 +42998,7 @@
 				)
 			)
 		)
-		(property "Value" "0.3nF"
+		(property "Value" "330pF"
 			(at 290.83 388.62 90)
 			(effects
 				(font
@@ -43006,7 +43006,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 287.02 394.6652 0)
 			(effects
 				(font
@@ -43206,7 +43206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 565.4548 96.52 0)
 			(effects
 				(font
@@ -43345,7 +43345,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 56.388 64.77 90)
 			(effects
 				(font
@@ -43412,7 +43412,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 124.46 88.392 90)
 			(effects
 				(font
@@ -43547,7 +43547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 464.5152 335.28 0)
 			(effects
 				(font
@@ -43616,7 +43616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 463.2452 237.49 0)
 			(effects
 				(font
@@ -43683,7 +43683,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 264.16 361.442 90)
 			(effects
 				(font
@@ -43734,7 +43734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89a90100-6863-4f64-be2d-10a9633aff31")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0126"
 			(at 468.63 195.58 0)
 			(effects
 				(font
@@ -43784,7 +43784,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0125")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -44312,7 +44312,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 184.4548 300.99 0)
 			(effects
 				(font
@@ -44381,7 +44381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 548.3352 132.08 0)
 			(effects
 				(font
@@ -44648,7 +44648,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 379.73 77.978 90)
 			(effects
 				(font
@@ -44717,7 +44717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 439.1152 123.19 0)
 			(effects
 				(font
@@ -44786,7 +44786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 439.1152 189.23 0)
 			(effects
 				(font
@@ -44855,7 +44855,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 133.0452 109.22 0)
 			(effects
 				(font
@@ -45119,7 +45119,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 57.4548 302.26 0)
 			(effects
 				(font
@@ -45261,7 +45261,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 351.79 325.628 90)
 			(effects
 				(font
@@ -45396,7 +45396,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 79.7052 205.74 0)
 			(effects
 				(font
@@ -45811,7 +45811,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 107.442 292.1 90)
 			(effects
 				(font
@@ -45880,7 +45880,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 209.042 146.05 90)
 			(effects
 				(font
@@ -46028,7 +46028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 107.6452 116.84 0)
 			(effects
 				(font
@@ -46095,7 +46095,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 407.67 366.268 90)
 			(effects
 				(font
@@ -46229,7 +46229,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 235.2548 300.99 0)
 			(effects
 				(font
@@ -46298,7 +46298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 573.0748 96.52 0)
 			(effects
 				(font
@@ -46481,7 +46481,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4750610-f9e5-4384-b1ca-eca11f1aeb51")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0137"
 			(at 513.08 342.9 0)
 			(effects
 				(font
@@ -46531,7 +46531,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0136")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -46562,7 +46562,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 54.9148 245.11 0)
 			(effects
 				(font
@@ -46631,7 +46631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 568.6552 187.96 0)
 			(effects
 				(font
@@ -46700,7 +46700,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 132.588 378.46 90)
 			(effects
 				(font
@@ -46767,7 +46767,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 194.6148 259.08 0)
 			(effects
 				(font
@@ -46974,7 +46974,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 216.2048 217.17 0)
 			(effects
 				(font
@@ -47041,7 +47041,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 121.158 95.25 90)
 			(effects
 				(font
@@ -47108,7 +47108,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 153.67 161.798 90)
 			(effects
 				(font
@@ -47536,7 +47536,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 131.7752 394.97 0)
 			(effects
 				(font
@@ -47942,7 +47942,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 496.2652 237.49 0)
 			(effects
 				(font
@@ -48009,7 +48009,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 351.79 386.588 90)
 			(effects
 				(font
@@ -48078,7 +48078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 239.0648 135.89 0)
 			(effects
 				(font
@@ -48203,7 +48203,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "74HC4051"
 			(at 270.002 291.084 0)
 			(effects
 				(font
@@ -48388,7 +48388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 139.3952 109.22 0)
 			(effects
 				(font
@@ -48522,7 +48522,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 547.0652 284.48 0)
 			(effects
 				(font
@@ -48589,7 +48589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 407.67 244.348 90)
 			(effects
 				(font
@@ -48656,7 +48656,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 351.79 244.348 90)
 			(effects
 				(font
@@ -48998,7 +48998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 299.4152 196.85 0)
 			(effects
 				(font
@@ -49067,7 +49067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 519.1252 187.96 0)
 			(effects
 				(font
@@ -49199,7 +49199,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 277.622 353.06 90)
 			(effects
 				(font
@@ -49268,7 +49268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 486.1052 187.96 0)
 			(effects
 				(font
@@ -49337,7 +49337,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 530.5552 284.48 0)
 			(effects
 				(font
@@ -49405,7 +49405,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 71.12 123.698 90)
 			(effects
 				(font
@@ -49466,7 +49466,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ES8374"
 			(at 505.0633 132.08 0)
 			(effects
 				(font
@@ -49743,7 +49743,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be9fcb25-d642-4f23-92eb-d883069c7141")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0132"
 			(at 496.57 292.1 0)
 			(effects
 				(font
@@ -49793,7 +49793,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0131")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -50133,7 +50133,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 67.31 295.402 90)
 			(effects
 				(font
@@ -50345,7 +50345,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0a009da-6eb1-4ed5-9464-ab952aa38f23")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0136"
 			(at 513.08 292.1 0)
 			(effects
 				(font
@@ -50395,7 +50395,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0135")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -50426,7 +50426,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 199.39 120.142 90)
 			(effects
 				(font
@@ -50715,7 +50715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 117.348 101.6 90)
 			(effects
 				(font
@@ -50917,7 +50917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 221.742 220.98 90)
 			(effects
 				(font
@@ -51328,7 +51328,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 172.4152 91.44 0)
 			(effects
 				(font
@@ -51395,7 +51395,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 232.41 122.682 90)
 			(effects
 				(font
@@ -51529,7 +51529,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 60.96 43.942 90)
 			(effects
 				(font
@@ -51596,7 +51596,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 239.0648 218.44 0)
 			(effects
 				(font
@@ -51834,7 +51834,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 407.67 386.588 90)
 			(effects
 				(font
@@ -51902,7 +51902,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 430.53 146.558 90)
 			(effects
 				(font
@@ -51953,7 +51953,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ca871986-d55b-44ae-89c7-b65738e83829")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0130"
 			(at 485.14 195.58 0)
 			(effects
 				(font
@@ -52003,7 +52003,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0129")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -52161,7 +52161,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cbcebf2e-d891-4c7f-841d-705094b85168")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0135"
 			(at 511.81 245.11 0)
 			(effects
 				(font
@@ -52211,7 +52211,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0134")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -52427,7 +52427,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cfb4bdd0-cfbc-48d6-8851-9c2ccd67c3c0")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0149"
 			(at 561.34 245.11 0)
 			(effects
 				(font
@@ -52477,7 +52477,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0148")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -52508,7 +52508,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 232.7148 218.44 0)
 			(effects
 				(font
@@ -52718,7 +52718,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 529.2852 237.49 0)
 			(effects
 				(font
@@ -52770,7 +52770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1ab1197-62ea-441a-8d8d-116bc69d40cc")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0142"
 			(at 532.13 92.71 0)
 			(effects
 				(font
@@ -52820,7 +52820,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0141")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -52853,7 +52853,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 535.6352 187.96 0)
 			(effects
 				(font
@@ -52992,7 +52992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 530.5552 335.28 0)
 			(effects
 				(font
@@ -53060,7 +53060,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 48.26 278.638 90)
 			(effects
 				(font
@@ -53129,7 +53129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 89.8652 205.74 0)
 			(effects
 				(font
@@ -53181,7 +53181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5f8a740-93ad-4a1a-9cb3-65d4d445e58a")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0143"
 			(at 532.13 142.24 0)
 			(effects
 				(font
@@ -53231,7 +53231,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0142")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -53329,7 +53329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 95.25 282.448 90)
 			(effects
 				(font
@@ -53445,7 +53445,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d705f8bd-aec0-4149-b88a-52270cebc30e")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0150"
 			(at 562.61 292.1 0)
 			(effects
 				(font
@@ -53495,7 +53495,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0149")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -53528,7 +53528,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 91.1352 100.33 0)
 			(effects
 				(font
@@ -53588,7 +53588,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 nF"
+		(property "Value" "10nF"
 			(at 325.12 288.29 0)
 			(effects
 				(font
@@ -53597,7 +53597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 332.4352 289.56 0)
 			(effects
 				(font
@@ -53666,7 +53666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 446.7352 123.19 0)
 			(effects
 				(font
@@ -53734,7 +53734,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 48.26 255.778 90)
 			(effects
 				(font
@@ -54009,7 +54009,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 512.7752 237.49 0)
 			(effects
 				(font
@@ -54265,7 +54265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 497.5352 335.28 0)
 			(effects
 				(font
@@ -54594,7 +54594,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 199.39 117.602 90)
 			(effects
 				(font
@@ -54661,7 +54661,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 277.622 342.9 90)
 			(effects
 				(font
@@ -54730,7 +54730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 144.4752 100.33 0)
 			(effects
 				(font
@@ -54927,7 +54927,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 436.88 77.978 90)
 			(effects
 				(font
@@ -55128,7 +55128,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e358e915-5e06-4c63-b20d-247ba67f1fb0")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0151"
 			(at 562.61 342.9 0)
 			(effects
 				(font
@@ -55178,7 +55178,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0150")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -55211,7 +55211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 502.6152 187.96 0)
 			(effects
 				(font
@@ -55348,7 +55348,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 407.67 284.988 90)
 			(effects
 				(font
@@ -55633,7 +55633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 385.1148 86.36 0)
 			(effects
 				(font
@@ -56047,7 +56047,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 131.318 95.25 90)
 			(effects
 				(font
@@ -56116,7 +56116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 442.9252 85.09 0)
 			(effects
 				(font
@@ -56185,7 +56185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 180.0352 199.39 0)
 			(effects
 				(font
@@ -56252,7 +56252,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 436.88 75.438 90)
 			(effects
 				(font
@@ -56321,7 +56321,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 555.9552 132.08 0)
 			(effects
 				(font
@@ -56390,7 +56390,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 86.0552 140.97 0)
 			(effects
 				(font
@@ -56527,7 +56527,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 158.4452 226.06 0)
 			(effects
 				(font
@@ -56597,7 +56597,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 347.6752 151.13 0)
 			(effects
 				(font
@@ -56804,7 +56804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 540.7152 132.08 0)
 			(effects
 				(font
@@ -57007,7 +57007,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 468.3252 157.48 0)
 			(effects
 				(font
@@ -57275,7 +57275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 533.0952 132.08 0)
 			(effects
 				(font
@@ -57342,7 +57342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 407.67 264.668 90)
 			(effects
 				(font
@@ -57551,7 +57551,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 59.182 59.69 90)
 			(effects
 				(font
@@ -57620,7 +57620,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 103.8352 153.67 0)
 			(effects
 				(font
@@ -58028,7 +58028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 563.5752 284.48 0)
 			(effects
 				(font
@@ -58079,7 +58079,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcc822c6-7899-4492-830e-5ab68183c5d9")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0125"
 			(at 467.36 167.64 0)
 			(effects
 				(font
@@ -58129,7 +58129,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0124")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -58162,7 +58162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 497.5352 284.48 0)
 			(effects
 				(font
@@ -58283,7 +58283,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fe11ca0f-b29d-4a29-8b1a-602ac4418472")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0128"
 			(at 480.06 292.1 0)
 			(effects
 				(font
@@ -58333,7 +58333,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0127")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -58414,7 +58414,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fee0cc3a-0345-4228-a817-f81241903a6f")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0140"
 			(at 529.59 292.1 0)
 			(effects
 				(font
@@ -58464,7 +58464,7 @@
 		(instances
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0139")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -58561,7 +58561,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 190.8048 300.99 0)
 			(effects
 				(font
