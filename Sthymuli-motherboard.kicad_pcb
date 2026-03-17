@@ -4200,7 +4200,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy -1.749999 -8.000001) (xy -1.75 -3.000001) (xy 1.75 -3) (xy 1.75 -8)
+				(xy -1.749999 -8.000002) (xy -1.75 -3.000001) (xy 1.75 -3) (xy 1.75 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -16031,7 +16031,7 @@
 	(footprint "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 		(layer "F.Cu")
 		(uuid "46644038-e46d-4b38-9ad9-d028a24bcaca")
-		(at 55.75 130.75 115)
+		(at 57.2 130.5 115)
 		(descr "USB Type C, right-angle, SMT, https://datasheet.lcsc.com/lcsc/2204071530_G-Switch-GT-USB-7010ASV_C2988369.pdf")
 		(tags "USB C Type-C Receptacle SMD")
 		(property "Reference" "J1"
@@ -16108,7 +16108,7 @@
 			(uuid "4f5dc334-2bc9-4248-9315-0747c8d0d340")
 		)
 		(fp_line
-			(start -4.58 -1.85)
+			(start -4.579999 -1.85)
 			(end -4.58 0.07)
 			(stroke
 				(width 0.12)
@@ -27321,7 +27321,7 @@
 			(uuid "65ada6b6-33a9-4b95-a71a-649847c5f658")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -9.779 75)
+			(at -0.000001 -9.779 75)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "29340f08-636b-4377-9246-bf08b4ac2e23")
@@ -30649,7 +30649,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.750001 -8) (xy -1.75 -3) (xy 1.75 -3) (xy 1.75 -8)
+				(xy -1.750001 -8) (xy -1.75 -3) (xy 1.749999 -3) (xy 1.749999 -8)
 			)
 			(stroke
 				(width 0.1)
@@ -32437,7 +32437,7 @@
 			(uuid "002fef0d-822b-4a30-b914-15d480775f15")
 		)
 		(pad "39" smd rect
-			(at 8.75 -3.989999 120)
+			(at 8.75 -3.989998 120)
 			(size 1.5 0.9)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 206 "GPIO_INTB")
@@ -67117,11 +67117,11 @@
 		(uuid "2caa1b74-19cb-4ef3-9381-4dd36096615c")
 	)
 	(gr_line
-		(start 79.097407 84.929406)
-		(end 79.097407 94.25)
+		(start 78.999743 84.929406)
+		(end 79.055499 94.2)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "31321282-f042-49af-aa49-23f8b4399906")
@@ -67275,8 +67275,8 @@
 		(uuid "6d48de7d-2353-46d8-b6e6-0592b8b81968")
 	)
 	(gr_line
-		(start 118.370375 85.01598)
-		(end 118.370375 94.336574)
+		(start 118.272968 85.000004)
+		(end 118.328467 94.304622)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -67331,7 +67331,7 @@
 		(end 17.136347 94.007328)
 		(stroke
 			(width 0.2)
-			(type default)
+			(type solid)
 		)
 		(layer "Edge.Cuts")
 		(uuid "877ce8fb-1d6a-477c-9330-84ce7ee3dda5")
@@ -67434,8 +67434,8 @@
 		(uuid "c222f56a-e7c4-46e7-aee7-3c37060fc448")
 	)
 	(gr_line
-		(start 18.25 84.75)
-		(end 18.25 94.070483)
+		(start 18.13627 84.686798)
+		(end 18.136254 94.0073)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -67570,8 +67570,8 @@
 		(uuid "f2f848d0-5eab-4a93-abe3-d4a4fbbb4abc")
 	)
 	(gr_line
-		(start 158.295647 85.33378)
-		(end 158.295647 94.654374)
+		(start 158.197904 85.33378)
+		(end 158.253739 94.622445)
 		(stroke
 			(width 0.2)
 			(type default)
