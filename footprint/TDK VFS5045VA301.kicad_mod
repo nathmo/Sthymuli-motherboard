@@ -1,0 +1,97 @@
+(footprint "TDK VFS5045VA301"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "TDK VFS5045VA301"
+		(at 0 -7.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4322ba7f-83d1-4bac-b6eb-717dc6023c11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TDK VFS5045VA301"
+		(at 0 10.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "19b0bf6f-8e4d-4f96-b73c-c2c062f6b4c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bde6653-2334-49f0-b58b-124a7df3a72c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c614c20-8ff9-49d7-befc-ecd08d6bc2e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.5 -2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "df5e40da-b628-49fe-a1d5-57337d267dd8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 11.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b0ab831b-c857-4686-b522-c8bfffbb2d19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -2.5 0)
+		(size 2.6 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "9c89bb8b-75ee-4a18-ac8f-c52acc96dc42")
+	)
+	(pad "2" smd roundrect
+		(at 2.5 0)
+		(size 2.6 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(thermal_bridge_angle 45)
+		(uuid "aa1c04ca-5e19-411b-afc8-3ef959a72f2c")
+	)
+	(embedded_fonts no)
+)

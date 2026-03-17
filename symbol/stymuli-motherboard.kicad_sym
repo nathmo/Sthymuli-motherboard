@@ -51,8 +51,8 @@
 		)
 		(symbol "BQ25713_0_1"
 			(rectangle
-				(start 22.86 -22.86)
-				(end -22.86 22.86)
+				(start -22.86 22.86)
+				(end 22.86 -22.86)
 				(stroke
 					(width 0)
 					(type default)
@@ -226,7 +226,7 @@
 						)
 					)
 				)
-				(number ""
+				(number "33"
 					(effects
 						(font
 							(size 1.27 1.27)

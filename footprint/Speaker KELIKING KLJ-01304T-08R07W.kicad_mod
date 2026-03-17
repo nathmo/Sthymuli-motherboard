@@ -1,0 +1,120 @@
+(footprint "Speaker KELIKING KLJ-01304T-08R07W"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "KELIKING KLJ-01304T-08R07W"
+		(at 0 -13.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "85bfc166-c906-4857-a7f0-947a02d65ce3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "microphone"
+		(at 0 -14.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fd1e043e-6b50-41d0-91e4-7cabcd4e594b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f51b314f-a497-4efa-976f-81d30e5d9040")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0bb7952-e4fa-430d-b3af-137b6f9a8ab2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 0 -5.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "1384b1c8-30a7-4395-833e-b0d35eb38ae2")
+	)
+	(fp_rect
+		(start -6.5 -6.5)
+		(end 6.5 6.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fd536cc4-1f0f-44d1-837b-b13f71697387")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 11.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c804bc8d-2aa7-426c-a8de-064b4f99bd0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -6.5 4.3 90)
+		(size 2.2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "c0fa8f77-1001-4a0d-b30d-ff85f1d89375")
+	)
+	(pad "2" smd roundrect
+		(at 6.5 4.3 90)
+		(size 2.2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "cf2c1ca6-b85c-48e5-afcf-ab19cb8099cb")
+	)
+	(pad "NC" smd roundrect
+		(at -6.5 -4.3 90)
+		(size 2.2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "6736cc29-52b9-4721-8e65-8337a06ade22")
+	)
+	(pad "NC" smd roundrect
+		(at 6.5 -4.3 90)
+		(size 2.2 2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "1bf8614b-db65-4ad4-b486-54cad8821116")
+	)
+	(embedded_fonts no)
+)

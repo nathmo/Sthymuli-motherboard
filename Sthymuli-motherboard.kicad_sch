@@ -9809,8 +9809,8 @@
 			)
 			(symbol "BQ25713_0_1"
 				(rectangle
-					(start 22.86 -22.86)
-					(end -22.86 22.86)
+					(start -22.86 22.86)
+					(end 22.86 -22.86)
 					(stroke
 						(width 0)
 						(type default)
@@ -9984,7 +9984,7 @@
 							)
 						)
 					)
-					(number ""
+					(number "33"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11079,12 +11079,6 @@
 		(uuid "051e9ccb-113b-4fb2-8a0f-61278efa9821")
 	)
 	(junction
-		(at 459.74 360.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06a817ee-467f-490c-824d-849283e97e8b")
-	)
-	(junction
 		(at 55.88 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11391,12 +11385,6 @@
 		(uuid "2f96081d-7d95-4f14-a422-a4b4e3137cd7")
 	)
 	(junction
-		(at 529.59 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2ffb72b9-af8a-4e76-b128-47929b1b1cb8")
-	)
-	(junction
 		(at 240.03 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11463,28 +11451,10 @@
 		(uuid "3b61408d-f3a0-4bbb-b0cd-da5e59d240fd")
 	)
 	(junction
-		(at 480.06 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c4cf03b-fd22-4f22-97be-d6c786c97b34")
-	)
-	(junction
 		(at 217.17 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e05baa9-1d9c-4e88-bd00-8e0912e567f9")
-	)
-	(junction
-		(at 509.27 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3f7dbbd6-6174-4351-a810-e4f53c510293")
-	)
-	(junction
-		(at 509.27 360.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3feb3209-11f2-46a5-a835-a2f188cf0a2d")
 	)
 	(junction
 		(at 547.37 179.07)
@@ -11625,22 +11595,10 @@
 		(uuid "4e4e81db-7c38-41fc-94b1-4dc4f7bd07b3")
 	)
 	(junction
-		(at 542.29 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e5e8dc2-bb89-4ef7-884a-01f75902a3cc")
-	)
-	(junction
 		(at 356.87 364.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4f9cf2e7-fcd3-4630-a3b8-19a1ba869146")
-	)
-	(junction
-		(at 476.25 360.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4fca7a06-729d-45fe-bbae-8fd29955925f")
 	)
 	(junction
 		(at 491.49 228.6)
@@ -11659,12 +11617,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5251cf14-bc88-4780-a211-a7b129da7eb7")
-	)
-	(junction
-		(at 558.8 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5403627e-8c8a-4c6a-b394-e61451874b47")
 	)
 	(junction
 		(at 57.15 106.68)
@@ -11781,12 +11733,6 @@
 		(uuid "6cc86a43-e424-404b-90b0-0accce4136df")
 	)
 	(junction
-		(at 492.76 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e80bbd1-07af-4869-84a6-38505e29521b")
-	)
-	(junction
 		(at 514.35 179.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11877,12 +11823,6 @@
 		(uuid "78cefd26-9b55-4919-bf6b-ff5a573fa57b")
 	)
 	(junction
-		(at 542.29 360.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "78ee9ad3-7a3b-4a6c-9ab3-80c4b9f3fa0d")
-	)
-	(junction
 		(at 279.4 347.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11919,12 +11859,6 @@
 		(uuid "7e2c2326-3afb-4a1b-b934-f530b0a3d0ee")
 	)
 	(junction
-		(at 443.23 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7e5d7ad7-cac3-44bf-8c73-c79905a03986")
-	)
-	(junction
 		(at 185.42 257.81)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11943,34 +11877,10 @@
 		(uuid "7fce9137-4a9f-4f65-a1f9-1f4c7d410d16")
 	)
 	(junction
-		(at 525.78 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ffa2ea0-1c69-495a-ad29-8ef844981bc7")
-	)
-	(junction
 		(at 157.48 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8254d904-6004-4fa9-b814-9fe12735c507")
-	)
-	(junction
-		(at 513.08 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82bc3517-c754-4821-baa7-628a503a7636")
-	)
-	(junction
-		(at 492.76 360.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84f97da4-c2a6-4f1e-98be-c78400629b42")
-	)
-	(junction
-		(at 463.55 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85af345d-5613-4fa6-9545-eb136d8303fa")
 	)
 	(junction
 		(at 67.31 243.84)
@@ -12015,12 +11925,6 @@
 		(uuid "8b0c584f-b84d-4777-8bc5-3d74db70aa82")
 	)
 	(junction
-		(at 546.1 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b8f9eb8-fd61-44d7-bdf4-4178a94ff081")
-	)
-	(junction
 		(at 440.69 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12043,12 +11947,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f0b3ae4-aa48-4e03-8a2a-f3f0e7d578b0")
-	)
-	(junction
-		(at 496.57 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f814d51-6816-45ec-a94e-325f939c774f")
 	)
 	(junction
 		(at 224.79 124.46)
@@ -12121,12 +12019,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94ff1bad-a68a-4d6d-bf01-9d04841688c5")
-	)
-	(junction
-		(at 525.78 360.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95c6e6de-b911-4b7c-ad7c-1524dc91173a")
 	)
 	(junction
 		(at 34.29 177.8)
@@ -12453,12 +12345,6 @@
 		(uuid "cd7032aa-15c1-4867-9cd4-c05d85a211be")
 	)
 	(junction
-		(at 443.23 360.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce9ffba3-be61-475a-ad87-b29567ef878a")
-	)
-	(junction
 		(at 55.88 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12531,12 +12417,6 @@
 		(uuid "d948ead7-553b-4ba7-9138-45eb08e31b55")
 	)
 	(junction
-		(at 459.74 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d9d91aab-c79e-4d8a-b86d-98fd48d63725")
-	)
-	(junction
 		(at 368.3 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12601,12 +12481,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e289902b-f9e6-4520-984f-6f4614736e1c")
-	)
-	(junction
-		(at 476.25 326.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2d9ffb4-a9fe-45b1-8c91-5168a4ac1196")
 	)
 	(junction
 		(at 448.31 213.36)
@@ -12875,22 +12749,12 @@
 		(uuid "c9caed89-f2b6-47d6-8226-d92074bfd9c2")
 	)
 	(no_connect
-		(at 566.42 345.44)
-		(uuid "cac49b14-6c74-4635-aab4-7a22875b36f1")
-	)
-	(no_connect
 		(at 485.14 78.74)
 		(uuid "e4af3b9b-0ecd-470e-9bb0-c84952d4f29c")
 	)
-	(wire
-		(pts
-			(xy 525.78 326.39) (xy 525.78 337.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00329580-fd97-4408-a451-a9eb56ce0020")
+	(no_connect
+		(at 566.42 294.64)
+		(uuid "f92ed875-aaab-4e3e-be34-b0aef6122aec")
 	)
 	(wire
 		(pts
@@ -13031,16 +12895,6 @@
 			(type default)
 		)
 		(uuid "02d7fbbd-3e41-4bf3-8883-922a1bb69610")
-	)
-	(wire
-		(pts
-			(xy 549.91 345.44) (xy 551.18 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02db5354-fd91-4595-ab04-1a7aba504d5c")
 	)
 	(wire
 		(pts
@@ -13251,16 +13105,6 @@
 			(type default)
 		)
 		(uuid "07f49267-75b1-4f7a-9519-f40247b6b45d")
-	)
-	(wire
-		(pts
-			(xy 443.23 360.68) (xy 443.23 361.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0803498b-55a0-4b47-94bf-da5a844fe972")
 	)
 	(wire
 		(pts
@@ -13714,16 +13558,6 @@
 	)
 	(wire
 		(pts
-			(xy 546.1 327.66) (xy 546.1 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13c2e056-5ee1-430a-af6f-4e79f462cb5d")
-	)
-	(wire
-		(pts
 			(xy 71.12 283.21) (xy 73.66 283.21)
 		)
 		(stroke
@@ -13731,26 +13565,6 @@
 			(type default)
 		)
 		(uuid "13eea1a1-231a-4e05-bae1-6ed3b4089fb1")
-	)
-	(wire
-		(pts
-			(xy 513.08 326.39) (xy 509.27 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13f323e4-376d-436e-a53c-bd05203323fb")
-	)
-	(wire
-		(pts
-			(xy 513.08 326.39) (xy 525.78 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "147ca38b-4318-4c94-ad49-4eabf077e13d")
 	)
 	(wire
 		(pts
@@ -13841,16 +13655,6 @@
 			(type default)
 		)
 		(uuid "1627aa5f-bc97-4b00-b088-bdd289c82bbe")
-	)
-	(wire
-		(pts
-			(xy 459.74 353.06) (xy 459.74 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "163b2f80-83c3-4ae8-b18b-92f737630223")
 	)
 	(wire
 		(pts
@@ -14294,16 +14098,6 @@
 	)
 	(wire
 		(pts
-			(xy 509.27 353.06) (xy 509.27 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e3faef8-a21b-4219-a7fd-351592862543")
-	)
-	(wire
-		(pts
 			(xy 80.01 50.8) (xy 80.01 90.17)
 		)
 		(stroke
@@ -14474,16 +14268,6 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 326.39) (xy 542.29 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "211a639e-cc70-4a85-823e-50304219e82e")
-	)
-	(wire
-		(pts
 			(xy 223.52 367.03) (xy 226.06 367.03)
 		)
 		(stroke
@@ -14644,16 +14428,6 @@
 	)
 	(wire
 		(pts
-			(xy 476.25 326.39) (xy 476.25 337.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "236a5f61-5846-4d45-8470-4002c13693ae")
-	)
-	(wire
-		(pts
 			(xy 476.25 302.26) (xy 476.25 309.88)
 		)
 		(stroke
@@ -14724,16 +14498,6 @@
 	)
 	(wire
 		(pts
-			(xy 463.55 335.28) (xy 463.55 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25d505f6-4b11-415a-acf7-ab06eaf7b866")
-	)
-	(wire
-		(pts
 			(xy 328.93 307.34) (xy 331.47 307.34)
 		)
 		(stroke
@@ -14771,16 +14535,6 @@
 			(type default)
 		)
 		(uuid "2663c013-d094-4b5e-ae0b-2855c1eab6fe")
-	)
-	(wire
-		(pts
-			(xy 509.27 360.68) (xy 525.78 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "267fc955-25a5-400a-bdee-7a380eb2823e")
 	)
 	(wire
 		(pts
@@ -14881,16 +14635,6 @@
 			(type default)
 		)
 		(uuid "28bcb1ba-53bf-49a2-a773-964b29a3f723")
-	)
-	(wire
-		(pts
-			(xy 529.59 327.66) (xy 529.59 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2932bf3c-b2f1-4ef1-afc2-5dadb773d815")
 	)
 	(wire
 		(pts
@@ -15264,16 +15008,6 @@
 	)
 	(wire
 		(pts
-			(xy 546.1 335.28) (xy 546.1 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ee5bced-082d-45f6-a136-d242693cbdfd")
-	)
-	(wire
-		(pts
 			(xy 344.17 364.49) (xy 347.98 364.49)
 		)
 		(stroke
@@ -15461,16 +15195,6 @@
 			(type default)
 		)
 		(uuid "321eb664-ca27-45e3-96de-df4ed2be1265")
-	)
-	(wire
-		(pts
-			(xy 500.38 345.44) (xy 501.65 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "325e459c-3f37-4a60-b2d8-2371900c8015")
 	)
 	(wire
 		(pts
@@ -15674,16 +15398,6 @@
 	)
 	(wire
 		(pts
-			(xy 558.8 326.39) (xy 558.8 337.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35b0050f-f0a6-4550-b39d-56a2961ca554")
-	)
-	(wire
-		(pts
 			(xy 149.86 97.79) (xy 149.86 81.28)
 		)
 		(stroke
@@ -15844,16 +15558,6 @@
 	)
 	(wire
 		(pts
-			(xy 562.61 327.66) (xy 562.61 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39542b7d-02d5-4d17-9b55-b2ce6d525770")
-	)
-	(wire
-		(pts
 			(xy 355.6 316.23) (xy 358.14 316.23)
 		)
 		(stroke
@@ -15961,16 +15665,6 @@
 			(type default)
 		)
 		(uuid "3b4a9045-ab52-4496-9320-17c40fb56804")
-	)
-	(wire
-		(pts
-			(xy 496.57 335.28) (xy 496.57 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b6c84f4-f1db-4ffe-8188-b905614220d1")
 	)
 	(wire
 		(pts
@@ -16131,16 +15825,6 @@
 			(type default)
 		)
 		(uuid "3e2d5b44-7969-49fb-9213-eff6621b0aaf")
-	)
-	(wire
-		(pts
-			(xy 542.29 360.68) (xy 558.8 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e2d8ecd-b6c6-4c32-abe4-48db117153b3")
 	)
 	(wire
 		(pts
@@ -16354,16 +16038,6 @@
 	)
 	(wire
 		(pts
-			(xy 476.25 353.06) (xy 476.25 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41a3df17-1975-45fb-83ec-0db1d03199a7")
-	)
-	(wire
-		(pts
 			(xy 448.31 73.66) (xy 454.66 73.66)
 		)
 		(stroke
@@ -16461,16 +16135,6 @@
 			(type default)
 		)
 		(uuid "44a9816d-22a4-4562-864c-f7a894e41017")
-	)
-	(wire
-		(pts
-			(xy 443.23 360.68) (xy 459.74 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44eaba0b-1d59-4b95-9b0b-4708985caeaf")
 	)
 	(wire
 		(pts
@@ -16614,16 +16278,6 @@
 	)
 	(wire
 		(pts
-			(xy 566.42 294.64) (xy 570.23 294.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4756fbae-146d-49d5-a2d5-3d9536d2fbfb")
-	)
-	(wire
-		(pts
 			(xy 20.32 88.9) (xy 20.32 90.17)
 		)
 		(stroke
@@ -16661,16 +16315,6 @@
 			(type default)
 		)
 		(uuid "47938ae1-3643-4b4c-b4f0-1ef3c3eebf64")
-	)
-	(wire
-		(pts
-			(xy 496.57 326.39) (xy 492.76 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47bdf999-7339-4103-bc29-94d3d85752bf")
 	)
 	(wire
 		(pts
@@ -16751,16 +16395,6 @@
 			(type default)
 		)
 		(uuid "491c1d1a-f315-4020-bf71-dfc63fc4d732")
-	)
-	(wire
-		(pts
-			(xy 433.07 336.55) (xy 433.07 339.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49251e11-3db1-432c-903c-85a9e5b5241c")
 	)
 	(wire
 		(pts
@@ -16904,26 +16538,6 @@
 	)
 	(wire
 		(pts
-			(xy 443.23 326.39) (xy 459.74 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ae8810b-cda6-4b3c-b53a-0cbeed1bee36")
-	)
-	(wire
-		(pts
-			(xy 542.29 326.39) (xy 546.1 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b609154-5d10-4ed1-a7b8-fa9239c15613")
-	)
-	(wire
-		(pts
 			(xy 144.78 160.02) (xy 149.86 160.02)
 		)
 		(stroke
@@ -16941,16 +16555,6 @@
 			(type default)
 		)
 		(uuid "4ba2cbe0-0aef-4916-b5f2-2a82a3303db0")
-	)
-	(wire
-		(pts
-			(xy 496.57 326.39) (xy 509.27 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c1f2f03-8a7d-4b69-a437-1ba9d0e05d32")
 	)
 	(wire
 		(pts
@@ -17101,16 +16705,6 @@
 			(type default)
 		)
 		(uuid "5165a660-27d0-4973-bdbe-3dad80aa3c84")
-	)
-	(wire
-		(pts
-			(xy 480.06 335.28) (xy 480.06 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51970337-6dd4-4f56-a293-760f2350ecff")
 	)
 	(wire
 		(pts
@@ -17304,16 +16898,6 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 353.06) (xy 492.76 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54c54a7d-17c0-4bd0-aff3-62f0029a1dc2")
-	)
-	(wire
-		(pts
 			(xy 49.53 101.6) (xy 49.53 106.68)
 		)
 		(stroke
@@ -17491,16 +17075,6 @@
 			(type default)
 		)
 		(uuid "577c3ae0-a717-40ad-8e55-ed117b43c6ba")
-	)
-	(wire
-		(pts
-			(xy 496.57 327.66) (xy 496.57 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57e8e510-3a23-4a18-9d11-6473fade08db")
 	)
 	(wire
 		(pts
@@ -17684,16 +17258,6 @@
 	)
 	(wire
 		(pts
-			(xy 513.08 335.28) (xy 513.08 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cf4346f-682c-48b1-84ea-c3c72bd959a0")
-	)
-	(wire
-		(pts
 			(xy 541.02 255.27) (xy 541.02 262.89)
 		)
 		(stroke
@@ -17741,16 +17305,6 @@
 			(type default)
 		)
 		(uuid "5e010cba-a7e6-432a-b4d4-df3dce6b1d4a")
-	)
-	(wire
-		(pts
-			(xy 570.23 316.23) (xy 422.91 316.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e3cdaf0-193e-4ab7-b96b-5f949d2aaf6b")
 	)
 	(wire
 		(pts
@@ -17924,16 +17478,6 @@
 	)
 	(wire
 		(pts
-			(xy 476.25 360.68) (xy 492.76 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "650af1a0-128c-4a86-9348-285c2a94bc73")
-	)
-	(wire
-		(pts
 			(xy 67.31 375.92) (xy 102.87 375.92)
 		)
 		(stroke
@@ -17951,16 +17495,6 @@
 			(type default)
 		)
 		(uuid "651d32f3-2ef2-46a4-a4f4-551c62add402")
-	)
-	(wire
-		(pts
-			(xy 459.74 326.39) (xy 459.74 337.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65277015-2b46-4c90-bd92-850a04c3f7f7")
 	)
 	(wire
 		(pts
@@ -18234,16 +17768,6 @@
 	)
 	(wire
 		(pts
-			(xy 529.59 335.28) (xy 529.59 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e7b4fdf-95ac-4b1a-9f23-0d3722301ae4")
-	)
-	(wire
-		(pts
 			(xy 406.4 295.91) (xy 408.94 295.91)
 		)
 		(stroke
@@ -18334,16 +17858,6 @@
 	)
 	(wire
 		(pts
-			(xy 459.74 360.68) (xy 476.25 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "702b8afc-3af9-4eb5-ae4c-f92029c24e32")
-	)
-	(wire
-		(pts
 			(xy 434.34 144.78) (xy 434.34 147.32)
 		)
 		(stroke
@@ -18414,16 +17928,6 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 327.66) (xy 480.06 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71a983c2-cf2a-4b6b-a0d3-c06eabb98777")
-	)
-	(wire
-		(pts
 			(xy 210.82 142.24) (xy 210.82 135.89)
 		)
 		(stroke
@@ -18471,16 +17975,6 @@
 			(type default)
 		)
 		(uuid "730396d1-23f9-4dc8-a98b-b3a3e56c1a88")
-	)
-	(wire
-		(pts
-			(xy 443.23 326.39) (xy 443.23 337.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "731e4f99-0d17-4f28-9d91-3c621fc4878e")
 	)
 	(wire
 		(pts
@@ -18964,16 +18458,6 @@
 	)
 	(wire
 		(pts
-			(xy 513.08 327.66) (xy 513.08 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cb746a8-e440-41eb-8388-e822d391935c")
-	)
-	(wire
-		(pts
 			(xy 299.72 252.73) (xy 304.8 252.73)
 		)
 		(stroke
@@ -19144,16 +18628,6 @@
 	)
 	(wire
 		(pts
-			(xy 542.29 353.06) (xy 542.29 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81651273-ddcc-4ec3-9106-1c746a9955ce")
-	)
-	(wire
-		(pts
 			(xy 90.17 287.02) (xy 83.82 287.02)
 		)
 		(stroke
@@ -19244,16 +18718,6 @@
 	)
 	(wire
 		(pts
-			(xy 463.55 327.66) (xy 463.55 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83490782-d53f-4590-a414-d9fe00d6ded4")
-	)
-	(wire
-		(pts
 			(xy 546.1 275.59) (xy 558.8 275.59)
 		)
 		(stroke
@@ -19324,16 +18788,6 @@
 	)
 	(wire
 		(pts
-			(xy 463.55 326.39) (xy 476.25 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83edd5ff-ae4c-4696-b818-280f1ee27384")
-	)
-	(wire
-		(pts
 			(xy 185.42 389.89) (xy 185.42 398.78)
 		)
 		(stroke
@@ -19341,16 +18795,6 @@
 			(type default)
 		)
 		(uuid "84172734-b9b6-4325-af56-0d35d1a96fa8")
-	)
-	(wire
-		(pts
-			(xy 443.23 325.12) (xy 443.23 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "842a13ea-e5f3-4a93-92bb-e65c45db6ed9")
 	)
 	(wire
 		(pts
@@ -19401,16 +18845,6 @@
 			(type default)
 		)
 		(uuid "85dc9140-53bd-48c6-9a2b-2c6724b7acde")
-	)
-	(wire
-		(pts
-			(xy 459.74 326.39) (xy 463.55 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85f2f613-6fe9-4ba0-a231-8aead451afb5")
 	)
 	(wire
 		(pts
@@ -19541,16 +18975,6 @@
 			(type default)
 		)
 		(uuid "87ec129d-2ec5-489a-b08d-43d3e066ba47")
-	)
-	(wire
-		(pts
-			(xy 467.36 345.44) (xy 468.63 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88064149-e993-49d6-99bb-a85d2b013bb9")
 	)
 	(wire
 		(pts
@@ -19761,16 +19185,6 @@
 			(type default)
 		)
 		(uuid "8c2fff62-19a2-448e-b919-933d7b90569a")
-	)
-	(wire
-		(pts
-			(xy 533.4 345.44) (xy 534.67 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c8af4ac-05b0-444e-8b64-a2dc9a9e15d3")
 	)
 	(wire
 		(pts
@@ -20094,16 +19508,6 @@
 	)
 	(wire
 		(pts
-			(xy 422.91 345.44) (xy 435.61 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9380b577-af10-4ea8-bd9e-2230c29f605f")
-	)
-	(wire
-		(pts
 			(xy 447.04 284.48) (xy 447.04 285.75)
 		)
 		(stroke
@@ -20121,16 +19525,6 @@
 			(type default)
 		)
 		(uuid "93efe826-4818-4545-8f91-1a15bf0ec4e1")
-	)
-	(wire
-		(pts
-			(xy 492.76 360.68) (xy 509.27 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "946289cd-6ffc-403f-b1e5-4a59258d4857")
 	)
 	(wire
 		(pts
@@ -20241,16 +19635,6 @@
 			(type default)
 		)
 		(uuid "9672adaa-7743-4cb7-ac30-120afd8e4f32")
-	)
-	(wire
-		(pts
-			(xy 476.25 326.39) (xy 480.06 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96b82724-adf1-43cb-b0a4-733295001313")
 	)
 	(wire
 		(pts
@@ -20381,16 +19765,6 @@
 			(type default)
 		)
 		(uuid "9916fe4b-7c85-4f49-bdde-f486b646cfe0")
-	)
-	(wire
-		(pts
-			(xy 516.89 345.44) (xy 518.16 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "992f2b7a-916d-423f-9c8d-d7e6bb034110")
 	)
 	(wire
 		(pts
@@ -20554,16 +19928,6 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 345.44) (xy 452.12 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d2070fa-f263-479e-9f77-1192c472688b")
-	)
-	(wire
-		(pts
 			(xy 448.31 177.8) (xy 448.31 179.07)
 		)
 		(stroke
@@ -20601,16 +19965,6 @@
 			(type default)
 		)
 		(uuid "9e04a211-9f60-4b9b-b333-fae4ae6ab744")
-	)
-	(wire
-		(pts
-			(xy 422.91 316.23) (xy 422.91 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e74f00c-6502-4efc-947b-cefe6acfb5e9")
 	)
 	(wire
 		(pts
@@ -20891,16 +20245,6 @@
 			(type default)
 		)
 		(uuid "a5596b40-3614-429a-9390-6d89c49019b6")
-	)
-	(wire
-		(pts
-			(xy 509.27 326.39) (xy 509.27 337.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5d0af92-75ed-4aaa-a155-79b9e830ffc7")
 	)
 	(wire
 		(pts
@@ -21614,16 +20958,6 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 326.39) (xy 529.59 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b275622a-9060-4dab-ba21-5be3472c8cda")
-	)
-	(wire
-		(pts
 			(xy 541.02 228.6) (xy 544.83 228.6)
 		)
 		(stroke
@@ -21851,16 +21185,6 @@
 			(type default)
 		)
 		(uuid "b5d77c3b-c138-453a-b266-91b473a498b1")
-	)
-	(wire
-		(pts
-			(xy 570.23 294.64) (xy 570.23 316.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5ef64ec-d24e-41c8-9900-5e0af903f8a6")
 	)
 	(wire
 		(pts
@@ -22144,16 +21468,6 @@
 	)
 	(wire
 		(pts
-			(xy 433.07 326.39) (xy 433.07 328.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba5fbcb1-0743-4ef2-a2a4-c346273628d7")
-	)
-	(wire
-		(pts
 			(xy 560.07 93.98) (xy 560.07 106.68)
 		)
 		(stroke
@@ -22434,16 +21748,6 @@
 	)
 	(wire
 		(pts
-			(xy 558.8 353.06) (xy 558.8 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0ab16af-6806-4fec-a6e8-9f7f33fda048")
-	)
-	(wire
-		(pts
 			(xy 509.27 275.59) (xy 509.27 287.02)
 		)
 		(stroke
@@ -22451,16 +21755,6 @@
 			(type default)
 		)
 		(uuid "c0d8128b-972c-442c-bc02-ffde758f56a5")
-	)
-	(wire
-		(pts
-			(xy 546.1 326.39) (xy 558.8 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c1652338-b4eb-41cb-bdbf-3a492a5fa452")
 	)
 	(wire
 		(pts
@@ -22631,16 +21925,6 @@
 			(type default)
 		)
 		(uuid "c50bb1c1-830b-4866-bcec-58961e5fceec")
-	)
-	(wire
-		(pts
-			(xy 562.61 335.28) (xy 562.61 336.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c59a56df-a77b-493d-9e0a-2ebc3331b961")
 	)
 	(wire
 		(pts
@@ -23071,16 +22355,6 @@
 			(type default)
 		)
 		(uuid "cee69a29-901b-4248-a745-31bc07720cbf")
-	)
-	(wire
-		(pts
-			(xy 480.06 326.39) (xy 492.76 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf40c0d6-220a-477a-88c1-4346c0240886")
 	)
 	(wire
 		(pts
@@ -23684,16 +22958,6 @@
 	)
 	(wire
 		(pts
-			(xy 525.78 360.68) (xy 542.29 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc6b74bd-bdad-4a1e-b34b-c30c6e121f8e")
-	)
-	(wire
-		(pts
 			(xy 353.06 53.34) (xy 505.46 53.34)
 		)
 		(stroke
@@ -23974,16 +23238,6 @@
 	)
 	(wire
 		(pts
-			(xy 483.87 345.44) (xy 485.14 345.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1228787-c814-47fc-8634-59596b68647b")
-	)
-	(wire
-		(pts
 			(xy 142.24 124.46) (xy 100.33 124.46)
 		)
 		(stroke
@@ -24044,16 +23298,6 @@
 	)
 	(wire
 		(pts
-			(xy 492.76 326.39) (xy 492.76 337.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e33581ca-21cf-4fd0-adeb-68c47aac2f35")
-	)
-	(wire
-		(pts
 			(xy 542.29 309.88) (xy 558.8 309.88)
 		)
 		(stroke
@@ -24061,16 +23305,6 @@
 			(type default)
 		)
 		(uuid "e392fa0c-2770-4a4e-98ff-1e27f6cafd9c")
-	)
-	(wire
-		(pts
-			(xy 562.61 326.39) (xy 558.8 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3f0db55-856a-4ea0-a00f-26073d1cae12")
 	)
 	(wire
 		(pts
@@ -24364,16 +23598,6 @@
 	)
 	(wire
 		(pts
-			(xy 433.07 326.39) (xy 443.23 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb6eece5-b3cc-420c-901e-ffbd685194dc")
-	)
-	(wire
-		(pts
 			(xy 160.02 200.66) (xy 160.02 201.93)
 		)
 		(stroke
@@ -24581,26 +23805,6 @@
 			(type default)
 		)
 		(uuid "f1a63c93-765d-4122-94ab-f3137c454f4c")
-	)
-	(wire
-		(pts
-			(xy 525.78 353.06) (xy 525.78 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1e2beb1-d739-44f2-97f9-1801ebc70076")
-	)
-	(wire
-		(pts
-			(xy 542.29 326.39) (xy 542.29 337.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f263f740-fa1c-4453-a10f-f4621381c233")
 	)
 	(wire
 		(pts
@@ -24971,16 +24175,6 @@
 			(type default)
 		)
 		(uuid "f912f475-507a-4c1d-8381-9f01a478bcea")
-	)
-	(wire
-		(pts
-			(xy 443.23 353.06) (xy 443.23 360.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f979fffd-c977-4e98-a8cb-84da0a32cc13")
 	)
 	(wire
 		(pts
@@ -28170,71 +27364,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 480.06 336.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "024248a5-ac7a-4e89-9bc4-1ca7bc2d91d8")
-		(property "Reference" "#PWR0129"
-			(at 480.06 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 482.346 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 480.06 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 480.06 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 480.06 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18b222ae-5107-4511-925a-81d7d3a9cbd2")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0129")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 448.31 81.28 0)
 		(unit 1)
@@ -28434,81 +27563,6 @@
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 459.74 345.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "049cf0ee-e6f8-4a50-92df-967b4d5edbd1")
-		(property "Reference" "D16"
-			(at 455.676 339.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 464.82 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 461.01 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 462.28 354.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 459.74 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "68a4998d-4cfb-4a42-a523-3f616d0d2389")
-		)
-		(pin "3"
-			(uuid "fc2aa499-a949-45c6-9b6a-dedbd0513f29")
-		)
-		(pin "1"
-			(uuid "e92cdba3-650d-4c91-956b-31f01c5e1dca")
-		)
-		(pin "4"
-			(uuid "afd701a0-a0cd-46af-af8f-b6aa8c368e63")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -28991,81 +28045,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 492.76 345.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "086821a3-c9c9-424d-b957-3e9c0883a12f")
-		(property "Reference" "D24"
-			(at 488.696 339.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 497.84 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 494.03 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 495.3 354.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 492.76 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "57bb9d54-8147-473c-93e8-7e92f0527881")
-		)
-		(pin "3"
-			(uuid "a86d727e-c423-4259-8ce3-5c7845cafcdb")
-		)
-		(pin "1"
-			(uuid "a06dbf7a-bd47-4a34-8c3f-18784a64f66a")
-		)
-		(pin "4"
-			(uuid "1a8bd320-3b0f-4f38-a0b6-c0c9be814178")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
 		(at 27.94 66.04 0)
 		(unit 1)
@@ -29241,81 +28220,6 @@
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
 					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 542.29 345.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "094dbada-2aa0-46b6-a722-b80d518a6d29")
-		(property "Reference" "D36"
-			(at 538.226 339.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 547.37 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 543.56 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 544.83 354.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 542.29 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fb8bd68b-45f2-48db-82a1-156cea3ec906")
-		)
-		(pin "3"
-			(uuid "2f026dee-c50d-4c50-b4d1-b980f4fdeba2")
-		)
-		(pin "1"
-			(uuid "5513101e-4ce1-4e78-b24d-8e9113725984")
-		)
-		(pin "4"
-			(uuid "75cacfe5-2bc4-4ab1-90b0-de950173be10")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -30255,7 +29159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:TDK VFS5045VA301"
 			(at 467.36 140.97 0)
 			(effects
 				(font
@@ -32762,75 +31666,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 433.07 332.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "25f7cc4c-2280-4d83-a0f9-cd41d41c9946")
-		(property "Reference" "C63"
-			(at 433.324 330.454 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 433.324 335.026 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 434.0352 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 433.07 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 433.07 332.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2fadc623-4a06-488b-a126-4fbe999e6b56")
-		)
-		(pin "1"
-			(uuid "2b6c5d1a-17d3-4ec9-a9aa-a4ee240fe972")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "C63")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 231.14 374.65 0)
 		(unit 1)
@@ -33387,72 +32222,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 443.23 325.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2887d848-ed00-42b3-84a7-ad99ada8ebf8")
-		(property "Reference" "#PWR0115"
-			(at 443.23 328.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 443.23 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 443.23 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 443.23 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 443.23 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b8668495-b5db-45b8-908c-2ab93527c826")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 426.72 147.32 0)
 		(unit 1)
@@ -33809,7 +32578,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:FXL0630-3R3-M"
 			(at 212.09 215.9 0)
 			(effects
 				(font
@@ -34138,81 +32907,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 558.8 345.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2fe8dac5-f2db-4d15-97df-640dab59bd96")
-		(property "Reference" "D40"
-			(at 554.736 339.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 563.88 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 560.07 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 561.34 354.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 558.8 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "757c21ea-80b0-4532-b4e9-400a4606ee1a")
-		)
-		(pin "3"
-			(uuid "53f6d7ad-78ae-4136-a15e-37b7d604c2a7")
-		)
-		(pin "1"
-			(uuid "5408c6b0-1aa7-47d7-9a33-6125b7d61db0")
-		)
-		(pin "4"
-			(uuid "2fa83de1-e223-4e57-bcab-3b2216627be0")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 321.31 322.58 0)
 		(unit 1)
@@ -34272,136 +32966,6 @@
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
 					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 546.1 336.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "306ce842-2f1b-4911-a9cd-554c6fe6c2c3")
-		(property "Reference" "#PWR0147"
-			(at 546.1 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 548.386 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 546.1 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 546.1 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 546.1 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8d5b60a7-6803-4bb3-81c8-94f7deab8adb")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0147")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 529.59 336.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "30e6b170-7b82-424e-97b2-6cc55605b262")
-		(property "Reference" "#PWR0141"
-			(at 529.59 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 531.876 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 529.59 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 529.59 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 529.59 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a14a1352-44db-4e44-84be-da25fcd6c023")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -34540,71 +33104,6 @@
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 496.57 336.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "32275196-f937-48de-9054-5f0746a2fd3d")
-		(property "Reference" "#PWR0133"
-			(at 496.57 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 498.856 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 496.57 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 496.57 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 496.57 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2b2fb891-48b6-42bc-ac5f-6923234d71db")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -34834,7 +33333,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:SAMZO MIC-4013-G-G00"
 			(at 358.14 76.2 90)
 			(effects
 				(font
@@ -35546,7 +34045,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:Speaker KELIKING KLJ-01304T-08R07W"
 			(at 516.89 143.51 0)
 			(effects
 				(font
@@ -35917,75 +34416,6 @@
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
 					(reference "C43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 546.1 331.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3f0e3c6b-c3fb-468e-b59b-11b3a65cbbd7")
-		(property "Reference" "C96"
-			(at 546.354 329.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 546.354 333.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 547.0652 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 546.1 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 546.1 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "099fd47e-28c3-4c55-a45a-b032db102364")
-		)
-		(pin "1"
-			(uuid "b2015eec-100a-462f-913a-7689bf6d42cf")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -38285,75 +36715,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 513.08 331.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "584d3b8f-d537-47bd-b707-d664265147fb")
-		(property "Reference" "C86"
-			(at 513.334 329.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 513.334 333.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 514.0452 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 513.08 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 513.08 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5925e4fd-a135-4176-bf34-25d53a576493")
-		)
-		(pin "1"
-			(uuid "867f1561-eddf-4c00-9b43-9d4820f21bdd")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "C86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 152.4 93.98 0)
 		(unit 1)
@@ -38617,75 +36978,6 @@
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
 					(reference "F3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 480.06 331.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5c01cde3-b8cd-4117-89fa-d67d950b7f45")
-		(property "Reference" "C78"
-			(at 480.314 329.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 480.314 333.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 481.0252 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 480.06 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 480.06 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a24f260e-7bff-4f61-9e6f-3484c9673628")
-		)
-		(pin "1"
-			(uuid "a3ac5b35-8765-4a9e-a204-503fcbeffd1b")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "C78")
 					(unit 1)
 				)
 			)
@@ -39431,75 +37723,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 562.61 331.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "62036f4f-16ec-4da9-8f00-9757452ebefc")
-		(property "Reference" "C102"
-			(at 562.864 329.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 562.864 333.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 563.5752 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 562.61 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 562.61 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ff419dcc-8110-482a-b5e9-e0efed82a38a")
-		)
-		(pin "1"
-			(uuid "816790e9-a291-40ef-8ce4-c3af0fad8b68")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "C102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 102.87 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -40128,81 +38351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LED:WS2812B")
-		(at 509.27 345.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67a76d09-03df-4a2f-94d2-60fbb8cbbe27")
-		(property "Reference" "D28"
-			(at 505.206 339.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 514.35 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 510.54 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 511.81 354.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 509.27 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8661cbd7-662c-4a4f-b5b4-437122cc6455")
-		)
-		(pin "3"
-			(uuid "0acf72af-d100-409f-9cec-5ab45b69bb65")
-		)
-		(pin "1"
-			(uuid "3cbc9077-150a-441e-be15-fa3367133b6a")
-		)
-		(pin "4"
-			(uuid "e2551fe5-6159-465a-9b9c-e69c298ca498")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_GSD")
 		(at 401.32 374.65 90)
 		(mirror x)
@@ -40599,7 +38747,7 @@
 		(pin "32"
 			(uuid "ec924486-416f-47eb-99e7-5465c4f9a917")
 		)
-		(pin ""
+		(pin "33"
 			(uuid "0ae5187e-48a0-4719-b815-69989504ec80")
 		)
 		(pin "31"
@@ -41848,81 +39996,6 @@
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
 					(reference "#PWR037")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 443.23 345.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77be60d6-73bf-41d2-a16e-98819b413eb0")
-		(property "Reference" "D11"
-			(at 439.166 339.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 448.31 352.044 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 444.5 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 445.77 354.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 443.23 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6f3924f1-0530-4705-86c3-ac9d6e4b1f89")
-		)
-		(pin "3"
-			(uuid "0b02afb7-3b05-455d-b17f-a220576dd97a")
-		)
-		(pin "1"
-			(uuid "98bac4f0-b853-49d2-ac86-7f1efd5a60c2")
-		)
-		(pin "4"
-			(uuid "47dc5f8e-1808-4fdd-8680-83386cc478c2")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -43525,75 +41598,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 463.55 331.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8872952c-f7aa-43b5-a8ef-cd14ef7d507f")
-		(property "Reference" "C72"
-			(at 463.804 329.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 463.804 333.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 464.5152 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 463.55 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 463.55 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b644fe2a-7ae0-4ebe-b264-6357448313cc")
-		)
-		(pin "1"
-			(uuid "97d7074a-ef18-42a3-abbe-f2e01b14a0bf")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "C72")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 462.28 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -43788,81 +41792,6 @@
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
 					(reference "#PWR0126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
-		(at 525.78 345.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89f81f07-3449-4a15-9fd6-1fdcb6597f3f")
-		(property "Reference" "D32"
-			(at 521.716 339.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 530.86 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 527.05 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 528.32 354.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 525.78 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2cf4097e-8bb3-4c8d-84b2-366dd565a0b9")
-		)
-		(pin "3"
-			(uuid "53184409-d4d4-4b8d-8a54-0ea138868353")
-		)
-		(pin "1"
-			(uuid "e683cfe1-f0d2-47b2-a6cf-293a5575e118")
-		)
-		(pin "4"
-			(uuid "bf4386b7-150d-4ed8-9ffd-c1ead19285e7")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -46473,71 +44402,6 @@
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
 					(reference "#PWR0108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 513.08 336.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a4750610-f9e5-4384-b1ca-eca11f1aeb51")
-		(property "Reference" "#PWR0137"
-			(at 513.08 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 515.366 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 513.08 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 513.08 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 513.08 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea9898ca-1a22-4e0c-9282-c0270a742763")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -49932,7 +47796,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:FXL0630-3R3-M"
 			(at 190.5 257.81 0)
 			(effects
 				(font
@@ -51752,71 +49616,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 433.07 339.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c90ba28b-a24f-4b49-b506-3d59b92c04ed")
-		(property "Reference" "#PWR0105"
-			(at 433.07 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 435.356 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 433.07 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 433.07 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 433.07 339.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d461845b-72c2-4c7b-b528-e211d59f4521")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 407.67 384.81 90)
 		(unit 1)
@@ -52973,75 +50772,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 529.59 331.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4c28882-b256-462e-8766-e0c01470a4e8")
-		(property "Reference" "C90"
-			(at 529.844 329.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 529.844 333.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 530.5552 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 529.59 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 529.59 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "31c1434d-4bf7-44fe-bcd0-a31bfe5dd0b8")
-		)
-		(pin "1"
-			(uuid "9f08f4d1-7d8e-4f6d-9d47-a64daf87d56c")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "C90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 48.26 276.86 90)
 		(unit 1)
@@ -53373,71 +51103,6 @@
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 463.55 336.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d6eabe19-0c9d-4d62-8d20-6d80743b994c")
-		(property "Reference" "#PWR0123"
-			(at 463.55 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 465.836 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 463.55 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 463.55 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 463.55 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6b308383-d5e3-4d75-b353-a9096ca91db4")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -54246,75 +51911,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 496.57 331.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd85d12c-4fd9-4a98-90f3-a0a07a48d910")
-		(property "Reference" "C82"
-			(at 496.824 329.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 496.824 333.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 497.5352 335.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 496.57 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 496.57 331.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eb5fdc2e-3dc0-40fd-94d7-dc4fa137c140")
-		)
-		(pin "1"
-			(uuid "87775a3b-f9b1-4c31-a825-bd257641608b")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "C82")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 346.71 154.94 0)
 		(unit 1)
@@ -54978,81 +52574,6 @@
 	)
 	(symbol
 		(lib_id "LED:WS2812B")
-		(at 476.25 345.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e2436f4f-1e63-4749-904e-610eea1c752b")
-		(property "Reference" "D20"
-			(at 472.186 339.344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812B"
-			(at 481.33 351.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
-			(at 477.52 353.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
-			(at 478.79 354.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "RGB LED with integrated controller"
-			(at 476.25 345.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fa4fb839-6c3a-4fd8-ac55-c49f596d903b")
-		)
-		(pin "3"
-			(uuid "37558bc2-78b5-42e7-8e3d-5360d1f0b904")
-		)
-		(pin "1"
-			(uuid "1d48e85d-64d4-46c9-a724-ed7a060b97df")
-		)
-		(pin "4"
-			(uuid "b6128bdb-5033-46c4-937c-1c295157c5a5")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LED:WS2812B")
 		(at 481.33 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -55121,71 +52642,6 @@
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
 					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 562.61 336.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e358e915-5e06-4c63-b20d-247ba67f1fb0")
-		(property "Reference" "#PWR0151"
-			(at 562.61 342.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 564.896 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 562.61 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 562.61 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 562.61 336.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "65036cac-b32e-4666-9e0e-615988b83c44")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -55490,7 +52946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:ConnectorSpring"
 			(at 271.78 52.07 0)
 			(effects
 				(font
@@ -55570,7 +53026,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "sthymuli:FHD4020S-2R2MT"
 			(at 167.64 73.66 0)
 			(effects
 				(font
@@ -56917,71 +54373,6 @@
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
 					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 443.23 361.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f5861278-ea56-4d41-8dd7-aad4831e935f")
-		(property "Reference" "#PWR0116"
-			(at 443.23 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 445.516 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 443.23 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 443.23 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 443.23 361.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "55a8f5c1-f375-47aa-98c0-296d3dcfcd41")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR0116")
 					(unit 1)
 				)
 			)

@@ -69,7 +69,7 @@ J3,1,NA,,Conn_01x03,,,,,~
 J4,1,NA,,Conn_01x06,,,,,~
 L1,1,FHD4020S-2R2MT,,2.2uH,,,,,~
 "L2,L3",2,FXL0630-3R3-M,,3.3uH,,,,,~
-L4,1,XRSQ1918-25mH-V-1013,,L,,,,,~
+L4,1,TDK VFS5045VA301,,59.8mΩ 1 450Ω@10MHz 2020 Ferrite Beads and Chips RoHS,,,,,~
 LS1,1,KLJ-01304T-08R07W,,Speaker,,,,,~
 MKTD4015BPN1,1,MIC-4013-G-G00,,Microphone,,,,,~
 "Q1,Q2,Q3,Q4,Q5,Q6",6,CSD17551Q3A,,Q_NMOS_Depletion_GSD,,,,,~
