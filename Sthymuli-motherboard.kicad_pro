@@ -195,6 +195,8 @@
       ],
       "track_widths": [
         0.0,
+        0.4,
+        0.5,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -639,6 +641,15 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 2
+      },
+      {
+        "clearance": 0.2,
+        "name": "power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
+        "tuning_profile": ""
       }
     ],
     "meta": {
@@ -896,7 +907,7 @@
         "uuid": "a56c3281-40b7-4048-95ca-500415dc80a4"
       }
     ],
-    "used_designators": "J11-12,#PWR105,#PWR112,#PWR152-157",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

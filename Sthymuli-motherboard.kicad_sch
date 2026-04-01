@@ -13360,6 +13360,12 @@
 		(uuid "e289902b-f9e6-4520-984f-6f4614736e1c")
 	)
 	(junction
+		(at 210.82 257.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4246e8e-f803-4fd4-b777-37be10e23cfe")
+	)
+	(junction
 		(at 172.72 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -14074,16 +14080,6 @@
 			(type default)
 		)
 		(uuid "0d0551ae-2288-4f0d-befc-7ed1930b9f33")
-	)
-	(wire
-		(pts
-			(xy 77.47 58.42) (xy 77.47 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d419d0b-ab30-4a88-bec5-8bfdce50fc31")
 	)
 	(wire
 		(pts
@@ -15897,6 +15893,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 113.03) (xy 62.23 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a1e00a3-eb49-4849-a874-5fdd57c5f517")
+	)
+	(wire
+		(pts
 			(xy 240.03 119.38) (xy 240.03 124.46)
 		)
 		(stroke
@@ -15984,6 +15990,16 @@
 			(type default)
 		)
 		(uuid "3ccea683-3197-40d8-8980-31b300f2e1c9")
+	)
+	(wire
+		(pts
+			(xy 62.23 113.03) (xy 62.23 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cde36b6-5ee0-4da9-b1ef-d09ecb84cfd6")
 	)
 	(wire
 		(pts
@@ -16494,6 +16510,16 @@
 			(type default)
 		)
 		(uuid "47938ae1-3643-4b4c-b4f0-1ef3c3eebf64")
+	)
+	(wire
+		(pts
+			(xy 77.47 66.04) (xy 77.47 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a171ab-a4e1-494e-a2aa-8cfea33eaa53")
 	)
 	(wire
 		(pts
@@ -20487,6 +20513,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 238.76) (xy 210.82 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2e0bc12-15ef-4a3a-804c-f5e60b8ad9ff")
+	)
+	(wire
+		(pts
 			(xy 393.7 87.63) (xy 396.24 87.63)
 		)
 		(stroke
@@ -21517,6 +21553,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 238.76) (xy 210.82 257.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca008f87-733e-4458-96a7-349b814ae3ad")
+	)
+	(wire
+		(pts
 			(xy 40.64 222.25) (xy 40.64 226.06)
 		)
 		(stroke
@@ -22497,6 +22543,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 172.72) (xy 149.86 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5bebd0c-211f-4f9e-bb0e-8ffa7badf979")
+	)
+	(wire
+		(pts
 			(xy 411.48 142.24) (xy 403.86 142.24)
 		)
 		(stroke
@@ -23264,6 +23320,16 @@
 			(type default)
 		)
 		(uuid "fc01a176-5197-456a-b62f-8b789cf2ee92")
+	)
+	(wire
+		(pts
+			(xy 149.86 172.72) (xy 149.86 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc73a76d-fa49-4ad2-853a-96eaa0d6b534")
 	)
 	(wire
 		(pts
@@ -29325,6 +29391,7 @@
 	(symbol
 		(lib_id "power:+BATT")
 		(at 34.29 176.53 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29332,7 +29399,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "144989e2-b7a8-4f97-b35a-0aaaad7e867c")
 		(property "Reference" "#PWR03"
 			(at 34.29 180.34 0)
@@ -36372,7 +36438,8 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 60.96 50.8 270)
+		(at 60.96 50.8 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36382,7 +36449,7 @@
 		(dnp no)
 		(uuid "668e4c92-cb0a-47e8-be0e-d3fe5a51c31c")
 		(property "Reference" "R11"
-			(at 62.738 48.514 90)
+			(at 59.182 48.514 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36393,7 +36460,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 62.23 50.8 90)
+			(at 59.69 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -50056,83 +50123,6 @@
 			(project "Sthymuli-motherboard"
 				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
 					(reference "C78")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 77.47 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f11a68e3-82b0-4b41-b717-20debba524e2")
-		(property "Reference" "#PWR012"
-			(at 77.47 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 74.168 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 77.47 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c7a339f8-9361-4d7d-89e3-b7d1b602a5e0")
-		)
-		(instances
-			(project "Sthymuli-motherboard"
-				(path "/a56c3281-40b7-4048-95ca-500415dc80a4"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
