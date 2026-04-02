@@ -28544,7 +28544,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sthymuli:ITR_9909_Horizontal"
+		(property "Footprint" "sthymuli:ITR_9909_Vertical"
 			(at 289.56 261.62 0)
 			(hide yes)
 			(show_name no)
