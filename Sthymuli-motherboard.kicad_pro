@@ -60,7 +60,96 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|144275000|92645000|91e545e0-d820-4c1c-b3ac-dea5671c8ac0|052eb3a2-627e-4f9b-a483-76e49fdd9572",
+          "PAD"
+        ],
+        [
+          "clearance|144275000|93945000|a3a76026-bd18-4686-86ff-4b90b71c6e34|71d93385-5de7-4600-82f2-2719b0afbd43",
+          "PAD"
+        ],
+        [
+          "clearance|144285000|96735000|3f1973ed-5ca9-477c-8c0f-3148525f6aa6|b1e8e51f-e6af-4bbc-a8a9-97c982843884",
+          "PAD"
+        ],
+        [
+          "clearance|144285000|98035000|ef754c73-903c-4b0e-8e10-b3b6ee07ff5e|d84abee2-01de-4c8b-a70e-29b966ce7f55",
+          "PAD"
+        ],
+        [
+          "clearance|173340000|104645000|e8a7c7dd-1edb-4c00-a295-815c1bc6a98f|35dd3cfc-9527-4d97-ae43-59a2237bd966",
+          "PAD"
+        ],
+        [
+          "clearance|173340000|105945000|447e1d13-0489-49f7-9c2f-d61696f6a164|f000f0ab-0ed7-4895-bfe1-ff6d10ae9c97",
+          "PAD"
+        ],
+        [
+          "clearance|177770000|94885000|818f7179-1543-4527-aa9a-2d41b693ff76|e36f09ac-7b38-4de6-a8d7-37ea7944bbed",
+          "PAD"
+        ],
+        [
+          "clearance|179070000|94885000|6f8e1972-5891-4366-9777-a57f8b70671b|effa43ba-c4c8-4ca3-ab96-6972340da865",
+          "PAD"
+        ],
+        [
+          "clearance|179155000|105140000|cc15e38b-eb35-4842-8602-3e8a686deba1|1d14a910-a813-47c3-82ef-5807e7283e0b",
+          "PAD"
+        ],
+        [
+          "clearance|180455000|105140000|878f6c70-1f4c-4dc7-be9f-c8fe06757230|637e32b4-7ae3-4cbe-bb46-e4ba05371f00",
+          "PAD"
+        ],
+        [
+          "clearance|181365000|100645000|4f5f0984-fbd7-497e-8993-08fd3ae16641|ad5823f9-8439-4bb6-bcfa-cba168d56c40",
+          "PAD"
+        ],
+        [
+          "clearance|181365000|101945000|631d5dcd-c2c8-408e-9766-e0be68700a7c|b6b5df07-37de-4643-8a6d-a9dcf701795e",
+          "PAD"
+        ],
+        [
+          "clearance|181365000|96545000|215a156a-487b-44bf-bb53-2adefd4a08c1|4bc1bfae-36e9-46c1-8f11-f832ad6428d8",
+          "PAD"
+        ],
+        [
+          "clearance|181365000|97845000|cdb8f0bf-ceb9-4c1a-8247-a7eafa51b01e|9d27d1c6-d196-4298-92d3-cd74f1bdaa80",
+          "PAD"
+        ],
+        [
+          "clearance|206075000|118400000|b8ec05e6-ac2d-4273-ae7f-1285d28c19a3|c8f0374e-c823-4a7d-a2d1-3aadca821ab3",
+          "cannot merge pad + copper zone. intended"
+        ],
+        [
+          "shorting_items|205914756|118225000|b8ec05e6-ac2d-4273-ae7f-1285d28c19a3|be207958-5c4a-449b-976a-33fa25488af4",
+          "cannot merge pad + copper zone. intended"
+        ],
+        [
+          "solder_mask_bridge|205914756|118225000|b8ec05e6-ac2d-4273-ae7f-1285d28c19a3|be207958-5c4a-449b-976a-33fa25488af4",
+          "peaker footprint issue, fine"
+        ],
+        [
+          "starved_thermal|108950561|107976382|492e509c-fc58-4ad0-a0c0-1e5d60a52717|6080c012-e2e0-4b8b-b7c3-36b8c0a4ac74|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|108950561|107976382|492e509c-fc58-4ad0-a0c0-1e5d60a52717|c51fa004-a52f-4f00-b3a9-1ad63e95534e|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|120925000|96500000|492e509c-fc58-4ad0-a0c0-1e5d60a52717|67fdd5b6-411b-4ac7-b178-747cfaff8fdb|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|162675000|67975000|492e509c-fc58-4ad0-a0c0-1e5d60a52717|829fd0e3-2a9b-4f8c-87a1-7549148c584f|F.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|93425000|101162500|492e509c-fc58-4ad0-a0c0-1e5d60a52717|4741f781-6ce8-46eb-8c3d-f511ba8e6ddf|F.Cu",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -625,7 +714,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,

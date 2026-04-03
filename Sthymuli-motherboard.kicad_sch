@@ -47669,7 +47669,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
+		(property "Footprint" "sthymuli:ESP32-S3-WROOM-1"
 			(at 52.07 370.84 0)
 			(hide yes)
 			(show_name no)
