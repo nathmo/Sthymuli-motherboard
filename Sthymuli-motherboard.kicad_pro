@@ -134,6 +134,10 @@
           "cannot merge pad + copper zone. intended"
         ],
         [
+          "silk_over_copper|204925438|118458476|f4ebdc77-561c-4f33-81ea-0ec1b2ec1f36|31407859-8d0a-4fd0-90fc-f3867fe2d549",
+          ""
+        ],
+        [
           "solder_mask_bridge|205914756|118225000|b8ec05e6-ac2d-4273-ae7f-1285d28c19a3|be207958-5c4a-449b-976a-33fa25488af4",
           "peaker footprint issue, fine"
         ],
@@ -761,7 +765,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "exports/fab/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
