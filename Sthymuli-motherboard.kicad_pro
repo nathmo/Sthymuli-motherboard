@@ -122,6 +122,14 @@
           "cannot merge pad + copper zone. intended"
         ],
         [
+          "courtyards_overlap|113820000|75045000|0cf0d666-acb2-436c-8cc9-1c55f18c88bc|961cea3c-eadf-468f-b5ea-db178bbb0331",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|93597278|79876894|961cea3c-eadf-468f-b5ea-db178bbb0331|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "shorting_items|205914756|118225000|b8ec05e6-ac2d-4273-ae7f-1285d28c19a3|be207958-5c4a-449b-976a-33fa25488af4",
           "cannot merge pad + copper zone. intended"
         ],
@@ -130,11 +138,11 @@
           "peaker footprint issue, fine"
         ],
         [
-          "starved_thermal|108950561|107976382|492e509c-fc58-4ad0-a0c0-1e5d60a52717|6080c012-e2e0-4b8b-b7c3-36b8c0a4ac74|F.Cu",
+          "starved_thermal|108950562|107976382|492e509c-fc58-4ad0-a0c0-1e5d60a52717|6080c012-e2e0-4b8b-b7c3-36b8c0a4ac74|F.Cu",
           ""
         ],
         [
-          "starved_thermal|108950561|107976382|492e509c-fc58-4ad0-a0c0-1e5d60a52717|c51fa004-a52f-4f00-b3a9-1ad63e95534e|F.Cu",
+          "starved_thermal|108950562|107976382|492e509c-fc58-4ad0-a0c0-1e5d60a52717|c51fa004-a52f-4f00-b3a9-1ad63e95534e|F.Cu",
           ""
         ],
         [

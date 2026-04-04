@@ -791,7 +791,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:USB_C_Receptacle_USB2.0_16P"
+		(symbol "ConnectorUSBC:USB_C_Receptacle_USB2.0_16P"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1476,24 +1476,6 @@
 						)
 					)
 					(number "B12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 -22.86 90)
-					(length 5.08)
-					(name "SHIELD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13444,12 +13426,6 @@
 		(uuid "f38b5a05-0cbb-4aee-80dc-74925f194064")
 	)
 	(junction
-		(at 24.13 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f4672152-1016-47e1-87fb-7e242bda80a3")
-	)
-	(junction
 		(at 156.21 397.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13990,16 +13966,6 @@
 			(type default)
 		)
 		(uuid "0a22471d-8bf6-43e7-a5f1-4253beff1b99")
-	)
-	(wire
-		(pts
-			(xy 24.13 90.17) (xy 27.94 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a39f6b6-cc81-443d-a0ac-18a68b7c71d9")
 	)
 	(wire
 		(pts
@@ -14970,16 +14936,6 @@
 			(type default)
 		)
 		(uuid "22b1db4a-e1fc-44bc-912a-adbbb68bb5dd")
-	)
-	(wire
-		(pts
-			(xy 20.32 90.17) (xy 24.13 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22d18f39-c93c-4a9b-8c12-553a566da023")
 	)
 	(wire
 		(pts
@@ -16473,16 +16429,6 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 88.9) (xy 20.32 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "476e88b7-39ab-40cf-aaeb-d1ffcfd8e3ba")
-	)
-	(wire
-		(pts
 			(xy 88.9 207.01) (xy 78.74 207.01)
 		)
 		(stroke
@@ -17413,7 +17359,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 92.71) (xy 24.13 90.17)
+			(xy 27.94 88.9) (xy 27.94 92.71)
 		)
 		(stroke
 			(width 0)
@@ -19810,16 +19756,6 @@
 			(type default)
 		)
 		(uuid "a3c6880b-9aa5-4d31-8733-9d87d6c2fac7")
-	)
-	(wire
-		(pts
-			(xy 27.94 90.17) (xy 27.94 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a433a1ac-40c7-4de0-b469-0af18ec10cd8")
 	)
 	(wire
 		(pts
@@ -27723,7 +27659,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
+		(lib_id "ConnectorUSBC:USB_C_Receptacle_USB2.0_16P")
 		(at 27.94 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -27754,7 +27690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
+		(property "Footprint" "sthymuli:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 31.75 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -27810,9 +27746,6 @@
 		)
 		(pin "A9"
 			(uuid "3b7d0657-4827-4c2b-937c-2d05803640cc")
-		)
-		(pin "SH"
-			(uuid "5b4720e7-574a-4ea9-9634-c072d95a3085")
 		)
 		(pin "A1"
 			(uuid "82fd405c-b6e5-4f21-9f4f-1bc29539236f")
@@ -29658,7 +29591,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BQ76905RGRR:IC_BQ76905RGRR"
+		(property "Footprint" "sthymuli:IC_BQ76905RGRR"
 			(at 90.17 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -49085,7 +49018,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 24.13 92.71 0)
+		(at 27.94 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -49095,7 +49028,7 @@
 		(dnp no)
 		(uuid "e7b3b724-bb72-411a-b8dc-5edbbbbc2aac")
 		(property "Reference" "#PWR01"
-			(at 24.13 99.06 0)
+			(at 27.94 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49106,7 +49039,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.416 92.71 0)
+			(at 30.226 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -49116,7 +49049,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 92.71 0)
+			(at 27.94 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49127,7 +49060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 92.71 0)
+			(at 27.94 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -49138,7 +49071,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 24.13 92.71 0)
+			(at 27.94 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
