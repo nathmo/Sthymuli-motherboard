@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.3,
+          "width": 0.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -60,108 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|144275000|92645000|91e545e0-d820-4c1c-b3ac-dea5671c8ac0|052eb3a2-627e-4f9b-a483-76e49fdd9572",
-          "PAD"
-        ],
-        [
-          "clearance|144275000|93945000|a3a76026-bd18-4686-86ff-4b90b71c6e34|71d93385-5de7-4600-82f2-2719b0afbd43",
-          "PAD"
-        ],
-        [
-          "clearance|144285000|96735000|3f1973ed-5ca9-477c-8c0f-3148525f6aa6|b1e8e51f-e6af-4bbc-a8a9-97c982843884",
-          "PAD"
-        ],
-        [
-          "clearance|144285000|98035000|ef754c73-903c-4b0e-8e10-b3b6ee07ff5e|d84abee2-01de-4c8b-a70e-29b966ce7f55",
-          "PAD"
-        ],
-        [
-          "clearance|173340000|104645000|e8a7c7dd-1edb-4c00-a295-815c1bc6a98f|35dd3cfc-9527-4d97-ae43-59a2237bd966",
-          "PAD"
-        ],
-        [
-          "clearance|173340000|105945000|447e1d13-0489-49f7-9c2f-d61696f6a164|f000f0ab-0ed7-4895-bfe1-ff6d10ae9c97",
-          "PAD"
-        ],
-        [
-          "clearance|177770000|94885000|818f7179-1543-4527-aa9a-2d41b693ff76|e36f09ac-7b38-4de6-a8d7-37ea7944bbed",
-          "PAD"
-        ],
-        [
-          "clearance|179070000|94885000|6f8e1972-5891-4366-9777-a57f8b70671b|effa43ba-c4c8-4ca3-ab96-6972340da865",
-          "PAD"
-        ],
-        [
-          "clearance|179155000|105140000|cc15e38b-eb35-4842-8602-3e8a686deba1|1d14a910-a813-47c3-82ef-5807e7283e0b",
-          "PAD"
-        ],
-        [
-          "clearance|180455000|105140000|878f6c70-1f4c-4dc7-be9f-c8fe06757230|637e32b4-7ae3-4cbe-bb46-e4ba05371f00",
-          "PAD"
-        ],
-        [
-          "clearance|181365000|100645000|4f5f0984-fbd7-497e-8993-08fd3ae16641|ad5823f9-8439-4bb6-bcfa-cba168d56c40",
-          "PAD"
-        ],
-        [
-          "clearance|181365000|101945000|631d5dcd-c2c8-408e-9766-e0be68700a7c|b6b5df07-37de-4643-8a6d-a9dcf701795e",
-          "PAD"
-        ],
-        [
-          "clearance|181365000|96545000|215a156a-487b-44bf-bb53-2adefd4a08c1|4bc1bfae-36e9-46c1-8f11-f832ad6428d8",
-          "PAD"
-        ],
-        [
-          "clearance|181365000|97845000|cdb8f0bf-ceb9-4c1a-8247-a7eafa51b01e|9d27d1c6-d196-4298-92d3-cd74f1bdaa80",
-          "PAD"
-        ],
-        [
-          "clearance|206075000|118400000|b8ec05e6-ac2d-4273-ae7f-1285d28c19a3|c8f0374e-c823-4a7d-a2d1-3aadca821ab3",
-          "cannot merge pad + copper zone. intended"
-        ],
-        [
-          "courtyards_overlap|113820000|75045000|0cf0d666-acb2-436c-8cc9-1c55f18c88bc|961cea3c-eadf-468f-b5ea-db178bbb0331",
-          ""
-        ],
-        [
-          "lib_footprint_mismatch|93597278|79876894|961cea3c-eadf-468f-b5ea-db178bbb0331|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "shorting_items|205914756|118225000|b8ec05e6-ac2d-4273-ae7f-1285d28c19a3|be207958-5c4a-449b-976a-33fa25488af4",
-          "cannot merge pad + copper zone. intended"
-        ],
-        [
-          "silk_over_copper|204925438|118458476|f4ebdc77-561c-4f33-81ea-0ec1b2ec1f36|31407859-8d0a-4fd0-90fc-f3867fe2d549",
-          ""
-        ],
-        [
-          "solder_mask_bridge|205914756|118225000|b8ec05e6-ac2d-4273-ae7f-1285d28c19a3|be207958-5c4a-449b-976a-33fa25488af4",
-          "peaker footprint issue, fine"
-        ],
-        [
-          "starved_thermal|108950562|107976382|492e509c-fc58-4ad0-a0c0-1e5d60a52717|6080c012-e2e0-4b8b-b7c3-36b8c0a4ac74|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|108950562|107976382|492e509c-fc58-4ad0-a0c0-1e5d60a52717|c51fa004-a52f-4f00-b3a9-1ad63e95534e|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|120925000|96500000|492e509c-fc58-4ad0-a0c0-1e5d60a52717|67fdd5b6-411b-4ac7-b178-747cfaff8fdb|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|162675000|67975000|492e509c-fc58-4ad0-a0c0-1e5d60a52717|829fd0e3-2a9b-4f8c-87a1-7549148c584f|F.Cu",
-          ""
-        ],
-        [
-          "starved_thermal|93425000|101162500|492e509c-fc58-4ad0-a0c0-1e5d60a52717|4741f781-6ce8-46eb-8c3d-f511ba8e6ddf|F.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -179,10 +78,10 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "warning",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
@@ -196,14 +95,14 @@
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "npth_inside_courtyard": "warning",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
@@ -218,12 +117,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
-        "tuning_profile_track_geometries": "ignore",
+        "tuning_profile_track_geometries": "warning",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -363,15 +262,39 @@
   "erc": {
     "erc_exclusions": [
       [
-        "lib_symbol_issues|2057400|3695700|01c9ba9e-a795-4f61-832a-eb5eecc8a969|00000000-0000-0000-0000-000000000000|||",
+        "footprint_link_issues|1676400|736600|e5807897-528a-4a9d-b9a6-2e3170abc339|00000000-0000-0000-0000-000000000000|||",
+        "had to drawn the footprint myself. correct footprint"
+      ],
+      [
+        "footprint_link_issues|1905000|2578100|beec3a64-de26-45d8-bea6-8b999b968027|00000000-0000-0000-0000-000000000000|||",
+        "had to drawn the footprint myself. correct footprint"
+      ],
+      [
+        "footprint_link_issues|2120900|2159000|2cedc17f-fe74-4cb4-b16f-8433624dd322|00000000-0000-0000-0000-000000000000|||",
+        "had to drawn the footprint myself. correct footprint"
+      ],
+      [
+        "footprint_link_issues|3949700|3543300|e53660de-51d4-4e5d-a59a-e3c7f70f3850|00000000-0000-0000-0000-000000000000|||",
+        "had to drawn the footprint myself. correct footprint"
+      ],
+      [
+        "footprint_link_issues|4038600|1244600|0f2886eb-17f2-40c4-9fa9-155067cfba4d|00000000-0000-0000-0000-000000000000|||",
+        "had to drawn the footprint myself. correct footprint"
+      ],
+      [
+        "footprint_link_issues|4292600|901700|bc82b091-7748-49ea-8b11-bbad30ac384e|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
       [
-        "multiple_net_names|342900|1765300|043a5556-491e-4d96-b507-b310fe574b00|40a1da6b-054c-4226-b2e8-a04c16332ca9|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
+        "multiple_net_names|342900|1765300|770d52d6-efe9-48e9-b0e3-ff9ca17c3677|40a1da6b-054c-4226-b2e8-a04c16332ca9|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
         ""
       ],
       [
-        "multiple_net_names|393700|2819400|3f61caff-9e52-4b7b-8997-6028a534655d|9f1befdb-de08-49b9-8c89-25b698c6e4b9|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
+        "multiple_net_names|393700|2222500|6937cbf7-8f09-4be6-863d-f41f31f71b3b|82c17f77-d405-4a52-96eb-39680cd0409b|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
+        ""
+      ],
+      [
+        "multiple_net_names|457200|1460500|3f61caff-9e52-4b7b-8997-6028a534655d|99be36b6-587d-4ba0-b4f6-3c6c3d161614|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
         ""
       ],
       [
@@ -379,116 +302,12 @@
         ""
       ],
       [
-        "multiple_net_names|5384800|2959100|6937cbf7-8f09-4be6-863d-f41f31f71b3b|95ff6cf6-7774-45e3-be65-e027fc0b19e3|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
-        ""
+        "pin_to_pin|2832100|1257300|306d98f2-0885-4ddd-864a-ac28821c4b4a|d13ec18f-62b2-476b-90b9-94e1623d7c60|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
+        "this is to set the address, correct behaviour"
       ],
       [
-        "pin_to_pin|3581400|1981200|02ae252e-54dc-41ef-9602-39cd57f402bd|bb9de11a-7dfe-499f-b87f-cdf631248aa8|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
-        "its to set the address, as request by datasheet"
-      ],
-      [
-        "pin_to_pin|774700|660400|ddd2f545-d8e8-4538-a028-fdc960f1a971|bb9de11a-7dfe-499f-b87f-cdf631248aa8|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
-        "its a backup, both chip should not be populated at the same time."
-      ],
-      [
-        "power_pin_not_driven|1104900|2692400|bc601aae-79d5-4a6e-8e3c-d6fcf94119bf|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "as requested by the schematic."
-      ],
-      [
-        "power_pin_not_driven|1422400|1143000|c51f2c3d-3d57-41c6-92e9-ff498acbefdb|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "resistor in serie. its all good"
-      ],
-      [
-        "power_pin_not_driven|1422400|1168400|f9a27714-a322-4613-87c0-de7c6832eb3a|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "resistor in serie. its all good"
-      ],
-      [
-        "power_pin_not_driven|1422400|1193800|f06888d7-5be8-4ccd-9d94-0df3e92b9a2a|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "resistor in serie. its all good"
-      ],
-      [
-        "power_pin_not_driven|1422400|1219200|62700428-fd4c-45d8-8e3f-125c018c253e|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "resistor in serie. its all good"
-      ],
-      [
-        "power_pin_not_driven|1562100|2578100|745cc9f2-42a3-4445-b74f-0b3b8b6491b2|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "as requested by the datasheet."
-      ],
-      [
-        "power_pin_not_driven|1663700|990600|2585082c-adc4-44ec-97b2-7862c8d7a744|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "as requested by the schematic."
-      ],
-      [
-        "power_pin_not_driven|1689100|990600|7b4b75ad-e503-429d-9c45-cdd80ee3a300|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "as requested by the schematic."
-      ],
-      [
-        "power_pin_not_driven|1930400|1193800|d90b1453-9986-4fdc-82eb-f8bd1ee0256e|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "as requested by the schematic."
-      ],
-      [
-        "power_pin_not_driven|1930400|1219200|952e48a1-c4dc-45cd-9c9e-3f9791ac5a53|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "as requested by the schematic."
-      ],
-      [
-        "power_pin_not_driven|241300|927100|6fc17006-8509-45d9-8040-ae049db74470|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "serie resistor, its all good"
-      ],
-      [
-        "power_pin_not_driven|2781300|1879600|1e6b9c59-6a9f-4662-a643-c168a58fc0da|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "as requested by the datasheet."
-      ],
-      [
-        "power_pin_not_driven|342900|1765300|40a1da6b-054c-4226-b2e8-a04c16332ca9|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "kicad see battery cell as not power output. no isse here"
-      ],
-      [
-        "power_pin_not_driven|3708400|1968500|7492700c-5906-4c44-aba1-fcba5c9ec423|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "powered trough the diode"
-      ],
-      [
-        "power_pin_not_driven|3708400|2120900|314f0fb1-b9b5-48a3-bccb-cc4e518253d5|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|3873500|1968500|d760ce28-8774-4741-9a9a-7422788dddb3|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "powered trough an inductance by the buck"
-      ],
-      [
-        "power_pin_not_driven|3962400|1054100|f8890b8a-3f4c-4ecf-b9e7-13c1da3ffe00|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "powered trough an RF choke"
-      ],
-      [
-        "power_pin_not_driven|4165600|1181100|66caa146-e412-4da2-8610-ce5e0b69a1a5|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        ""
-      ],
-      [
-        "power_pin_not_driven|4343400|1473200|3acb386b-2b1a-415b-b51d-7ad71251dd52|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "its a tie for the groundplane, all good"
-      ],
-      [
-        "power_pin_not_driven|4483100|1905000|7492700c-5906-4c44-aba1-fcba5c9ec423|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "this is intended, to drop the voltage for the first led to make it 3v3 compatible"
-      ],
-      [
-        "power_pin_not_driven|457200|482600|ae0a3e3b-337e-426d-b3a5-737db8d68806|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "VBUS from USB is a power pin..."
-      ],
-      [
-        "power_pin_not_driven|4800600|1346200|66caa146-e412-4da2-8610-ce5e0b69a1a5|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "inductor in serie. as required by datasheet"
-      ],
-      [
-        "power_pin_not_driven|520700|3454400|e04955c3-992a-46e6-bf12-de48fda13591|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "as requested by the datasheet."
-      ],
-      [
-        "power_pin_not_driven|622300|660400|1116ef9b-5dbc-463a-9a68-3fed008b0261|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "serie resistor. all good"
-      ],
-      [
-        "power_pin_not_driven|673100|444500|4ff1fe1a-1ad3-4a26-b372-be705dd41255|00000000-0000-0000-0000-000000000000|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|",
-        "there is just the debug resistor in serie but its still good"
+        "pin_to_pin|2832100|1282700|767a39d5-255e-4716-b4cc-c8d6c8a2038f|d13ec18f-62b2-476b-90b9-94e1623d7c60|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4|/a56c3281-40b7-4048-95ca-500415dc80a4",
+        "used to set the mode, correct behaviour per datasheet"
       ]
     ],
     "meta": {
@@ -676,9 +495,9 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
-      "four_way_junction": "ignore",
+      "four_way_junction": "warning",
       "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
@@ -697,14 +516,14 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
-      "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "simulation_model_issue": "warning",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -1009,7 +828,11 @@
       }
     ],
     "used_designators": "",
-    "variants": []
+    "variants": [
+      {
+        "name": "production"
+      }
+    ]
   },
   "sheets": [
     [

@@ -1,13 +1,13 @@
 (footprint "FHD4020S-2R2MT"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "FHD4020S-2R2MT"
 		(at 0 -2.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "997c0a0e-ee78-4888-95e5-8171a16203ed")
+		(uuid "c1339415-e1c1-4607-a0b5-ec41306dbdf7")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "00e1cb27-34f8-4521-af77-7b81d5b35968")
+		(uuid "c3d3c3ff-28aa-44b4-b408-7969bf4d0444")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "37d4a51e-1d91-4c7c-9127-a34c76e0bcaf")
+		(uuid "ea91f539-3c1f-46a6-82c4-42b5a2a7265a")
 		(effects
 			(font
 				(size 1 1)
@@ -45,7 +45,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ebb9da94-a202-40d0-8aee-2beec19392d0")
+		(uuid "8ed7f569-be40-4fcd-8f31-39edca24aaf4")
 		(effects
 			(font
 				(size 1 1)
@@ -54,11 +54,23 @@
 		)
 	)
 	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.026324 -1.778)
+		(end 2.032 1.777999)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "477df3e8-bc18-4fa5-bba9-cb5954f294ba")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 3.9 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "2d897c7e-b225-4e87-b5e5-296866a2a31c")
+		(uuid "703c410a-8e37-4f1e-af73-e82e9a245187")
 		(effects
 			(font
 				(size 1 1)
@@ -72,7 +84,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "ef4f435d-a66b-421b-a0a1-2045edcf3a36")
+		(uuid "0f25be0a-0abd-4eab-b506-4c4d4bab5c38")
 	)
 	(pad "2" smd roundrect
 		(at -1.5 0 270)
@@ -80,7 +92,7 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(thermal_bridge_angle 45)
-		(uuid "e78647b6-1b86-403d-a9ce-1cf9ac15f801")
+		(uuid "07e16375-4834-43c1-a204-bbb904f10258")
 	)
 	(embedded_fonts no)
 )
