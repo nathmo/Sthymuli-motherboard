@@ -60,7 +60,96 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|144275000|92645000|91e545e0-d820-4c1c-b3ac-dea5671c8ac0|052eb3a2-627e-4f9b-a483-76e49fdd9572",
+          "footprint is like that, manufacturer can handle it"
+        ],
+        [
+          "clearance|144275000|93945000|a3a76026-bd18-4686-86ff-4b90b71c6e34|71d93385-5de7-4600-82f2-2719b0afbd43",
+          "footprint is like that, manufacturer can handle it"
+        ],
+        [
+          "clearance|144285000|96345000|b1e8e51f-e6af-4bbc-a8a9-97c982843884|3f1973ed-5ca9-477c-8c0f-3148525f6aa6",
+          "footprint is like that, manufacturer can handle it"
+        ],
+        [
+          "clearance|144285000|97645000|d84abee2-01de-4c8b-a70e-29b966ce7f55|ef754c73-903c-4b0e-8e10-b3b6ee07ff5e",
+          "footprint is like that, manufacturer can handle it"
+        ],
+        [
+          "clearance|173340000|104645000|e8a7c7dd-1edb-4c00-a295-815c1bc6a98f|35dd3cfc-9527-4d97-ae43-59a2237bd966",
+          "footprint is like that, manufacturer can handle it"
+        ],
+        [
+          "clearance|173340000|105945000|447e1d13-0489-49f7-9c2f-d61696f6a164|f000f0ab-0ed7-4895-bfe1-ff6d10ae9c97",
+          "footprint is like that, manufacturer can handle it"
+        ],
+        [
+          "clearance|179155000|105140000|cc15e38b-eb35-4842-8602-3e8a686deba1|1d14a910-a813-47c3-82ef-5807e7283e0b",
+          "footprint is like that, manufacturer can handle it"
+        ],
+        [
+          "clearance|179545000|94260000|818f7179-1543-4527-aa9a-2d41b693ff76|e36f09ac-7b38-4de6-a8d7-37ea7944bbed",
+          "footprint is like that, manufacturer can handle it"
+        ],
+        [
+          "clearance|180455000|105140000|878f6c70-1f4c-4dc7-be9f-c8fe06757230|637e32b4-7ae3-4cbe-bb46-e4ba05371f00",
+          "footprint is like that, manufacturer can handle it"
+        ],
+        [
+          "clearance|180845000|94260000|6f8e1972-5891-4366-9777-a57f8b70671b|effa43ba-c4c8-4ca3-ab96-6972340da865",
+          "footprint is like that, manufacturer can handle it"
+        ],
+        [
+          "clearance|182865000|96355000|215a156a-487b-44bf-bb53-2adefd4a08c1|4bc1bfae-36e9-46c1-8f11-f832ad6428d8",
+          "footprint is like that, manufacturer can handle it"
+        ],
+        [
+          "clearance|182865000|97655000|cdb8f0bf-ceb9-4c1a-8247-a7eafa51b01e|9d27d1c6-d196-4298-92d3-cd74f1bdaa80",
+          "footprint is like that, manufacturer can handle it"
+        ],
+        [
+          "clearance|183040000|100665000|4f5f0984-fbd7-497e-8993-08fd3ae16641|ad5823f9-8439-4bb6-bcfa-cba168d56c40",
+          "footprint is like that, manufacturer can handle it"
+        ],
+        [
+          "clearance|183040000|101965000|631d5dcd-c2c8-408e-9766-e0be68700a7c|b6b5df07-37de-4643-8a6d-a9dcf701795e",
+          "footprint is like that, manufacturer can handle it"
+        ],
+        [
+          "extra_footprint|188000000|112500000|c8280c1f-2c5b-4795-9cba-a47d26a674ec|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_filters_mismatch|125625000|90200000|ac8c730e-1a34-476d-a90d-db42a2283727|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_filters_mismatch|134025000|90300000|18ced583-eb2c-487d-b405-793d443f2f2a|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_filters_mismatch|179800000|99300000|5bc8cea7-637f-4fb1-968f-aefb7036b6f8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_filters_mismatch|203125000|100900000|67edd3a0-fac7-405c-8097-fd3ba380e16f|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_filters_mismatch|212025000|105200000|d155d535-c09b-47f1-8534-2a4e87b2d821|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "footprint_filters_mismatch|231844600|87732300|9e262dc8-dbd7-4908-8d6d-ebee30ce4e04|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "missing_courtyard|188000000|112500000|c8280c1f-2c5b-4795-9cba-a47d26a674ec|00000000-0000-0000-0000-000000000000",
+          "its a logo..."
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -577,7 +666,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": ""
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
