@@ -6,5 +6,5 @@
 	(lib (name "kitprisme") (type "KiCad") (uri "${KIPRJMOD}/symbol/kitprisme.kicad_sym") (options "") (descr ""))
 	(lib (name "PCA9685PW_118") (type "KiCad") (uri "${KIPRJMOD}/symbol/PCA9685PW_118.kicad_sym") (options "") (descr ""))
 	(lib (name "BQ76905RGRR") (type "KiCad") (uri "${KIPRJMOD}/symbol/BQ76905RGRR.kicad_sym") (options "") (descr ""))
-	(lib (name "ConnectorUSBC") (type "KiCad") (uri "${KIPRJMOD}/symbol/ConnectorUSBC§.kicad_sym") (options "") (descr ""))
+	(lib (name "sthymuli_jlc") (type "KiCad") (uri "${KIPRJMOD}/lib/sthymuli_jlc.kicad_sym") (options "") (descr ""))
 )

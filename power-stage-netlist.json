@@ -1,0 +1,1171 @@
+{
+ "title": "Sthymuli golden v2 power stage",
+ "date": "2026-10-13",
+ "source": "https://claude.ai/artifact/JhpvjoJL54coHkT74R9dAr",
+ "global_nets": {
+  "P+": "Pack positive = B+ (never switched)",
+  "B-": "Cell negative side, before protection FETs. NEVER connect to GND",
+  "GND": "System ground = P- (after M2)",
+  "+5V": "Boost output",
+  "+3V3": "Buck-boost output",
+  "VBUS_IN": "From USB-C via CH224D sink"
+ },
+ "esp32_signals": {
+  "ESP_CHG_OFF": "GPIO out, high = stop charging",
+  "CHG_CHRG": "GPIO in, low = charging",
+  "CHG_DONE": "GPIO in, low = charge done",
+  "NTC_ADC": "ADC1 pin",
+  "VBAT_ADC": "ADC1 pin (VBAT/2)",
+  "ESP_5V_EN": "GPIO out, high = 5V on",
+  "ESP_BB_MODE": "optional GPIO out, high = forced PWM",
+  "BB_PG": "optional GPIO in"
+ },
+ "components": [
+  {
+   "ref": "F2",
+   "value": "PTC 3A hold 24V",
+   "lcsc": "C2892380",
+   "sheet": "charger",
+   "footprint_hint": "Fuse_1812",
+   "note": "Input resettable fuse; VBUS_IN comes from the USB-C / CH224D sink",
+   "pins": {
+    "1": "VBUS_IN",
+    "2": "VBUS_F"
+   }
+  },
+  {
+   "ref": "D1",
+   "value": "SS54",
+   "lcsc": "C22452",
+   "sheet": "charger",
+   "footprint_hint": "D_SMA",
+   "note": "Blocks pack back-feeding VBUS through Q1 body diode",
+   "pins": {
+    "K": "CHG_VCC",
+    "A": "VBUS_F"
+   }
+  },
+  {
+   "ref": "C1A",
+   "value": "22uF 25V X5R",
+   "lcsc": "C77091",
+   "sheet": "charger",
+   "footprint_hint": "C_1206",
+   "note": "",
+   "pins": {
+    "1": "CHG_VCC",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "C1B",
+   "value": "22uF 25V X5R",
+   "lcsc": "C77091",
+   "sheet": "charger",
+   "footprint_hint": "C_1206",
+   "note": "",
+   "pins": {
+    "1": "CHG_VCC",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "C1C",
+   "value": "100nF",
+   "lcsc": "basic",
+   "sheet": "charger",
+   "footprint_hint": "C_0402",
+   "note": "",
+   "pins": {
+    "1": "CHG_VCC",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "U1",
+   "value": "CN3801",
+   "lcsc": "C840499",
+   "sheet": "charger",
+   "footprint_hint": "SSOP-10",
+   "note": "LFP buck charger, CV 3.625 V, Icc = 120 mV / RCS",
+   "pins": {
+    "1 VG": "CHG_VG",
+    "2 GND": "GND",
+    "3 CHRG": "CHG_CHRG",
+    "4 DONE": "CHG_DONE",
+    "5 COM": "CHG_COM",
+    "6 MPPT": "CHG_MPPT",
+    "7 BAT": "P+",
+    "8 CSP": "CHG_CSP",
+    "9 VCC": "CHG_VCC",
+    "10 DRV": "CHG_DRV"
+   }
+  },
+  {
+   "ref": "Q1",
+   "value": "AO4435",
+   "lcsc": "C5224296",
+   "sheet": "charger",
+   "footprint_hint": "SOIC-8",
+   "note": "P-MOSFET; standard SO-8 single-FET pinout, confirm in datasheet",
+   "pins": {
+    "1 S": "CHG_VCC",
+    "2 S": "CHG_VCC",
+    "3 S": "CHG_VCC",
+    "4 G": "CHG_DRV",
+    "5 D": "CHG_SW",
+    "6 D": "CHG_SW",
+    "7 D": "CHG_SW",
+    "8 D": "CHG_SW"
+   }
+  },
+  {
+   "ref": "D2",
+   "value": "SS54",
+   "lcsc": "C22452",
+   "sheet": "charger",
+   "footprint_hint": "D_SMA",
+   "note": "Freewheel diode",
+   "pins": {
+    "K": "CHG_SW",
+    "A": "GND"
+   }
+  },
+  {
+   "ref": "L1",
+   "value": "10uH Isat 5.5A (FXL0630-100-M)",
+   "lcsc": "C167223",
+   "sheet": "charger",
+   "footprint_hint": "L_7.0x6.6",
+   "note": "",
+   "pins": {
+    "1": "CHG_SW",
+    "2": "CHG_CSP"
+   }
+  },
+  {
+   "ref": "RCS",
+   "value": "30mR 1% 1W",
+   "lcsc": "C154643",
+   "sheet": "charger",
+   "footprint_hint": "R_1206",
+   "note": "4 A charge; Kelvin-route CSP and BAT sense traces to the pads",
+   "pins": {
+    "1": "CHG_CSP",
+    "2": "P+"
+   }
+  },
+  {
+   "ref": "C2A",
+   "value": "22uF 25V",
+   "lcsc": "C45783",
+   "sheet": "charger",
+   "footprint_hint": "C_0805",
+   "note": "",
+   "pins": {
+    "1": "P+",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "C2B",
+   "value": "22uF 25V",
+   "lcsc": "C45783",
+   "sheet": "charger",
+   "footprint_hint": "C_0805",
+   "note": "",
+   "pins": {
+    "1": "P+",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "C3",
+   "value": "100nF",
+   "lcsc": "basic",
+   "sheet": "charger",
+   "footprint_hint": "C_0402",
+   "note": "VG to VCC (not to GND), per CN3801 datasheet",
+   "pins": {
+    "1": "CHG_VG",
+    "2": "CHG_VCC"
+   }
+  },
+  {
+   "ref": "R3",
+   "value": "274k 1%",
+   "lcsc": "basic",
+   "sheet": "charger",
+   "footprint_hint": "R_0402",
+   "note": "MPPT divider: VCC regulated >= 1.205*(1+R3/R4) = 4.51 V",
+   "pins": {
+    "1": "CHG_VCC",
+    "2": "CHG_MPPT"
+   }
+  },
+  {
+   "ref": "R4",
+   "value": "100k 1%",
+   "lcsc": "basic",
+   "sheet": "charger",
+   "footprint_hint": "R_0402",
+   "note": "",
+   "pins": {
+    "1": "CHG_MPPT",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "Q2",
+   "value": "AO3400A",
+   "lcsc": "C20917",
+   "sheet": "charger",
+   "footprint_hint": "SOT-23",
+   "note": "Pulls MPPT low to stop charging (bench-verify)",
+   "pins": {
+    "1 G": "CHG_OFF",
+    "2 S": "GND",
+    "3 D": "CHG_MPPT"
+   }
+  },
+  {
+   "ref": "R6",
+   "value": "100k",
+   "lcsc": "basic",
+   "sheet": "charger",
+   "footprint_hint": "R_0402",
+   "note": "Charging enabled by default",
+   "pins": {
+    "1": "CHG_OFF",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "R7",
+   "value": "1k",
+   "lcsc": "basic",
+   "sheet": "charger",
+   "footprint_hint": "R_0402",
+   "note": "Series resistor from ESP32 GPIO",
+   "pins": {
+    "1": "CHG_OFF",
+    "2": "ESP_CHG_OFF"
+   }
+  },
+  {
+   "ref": "R5",
+   "value": "120R",
+   "lcsc": "basic",
+   "sheet": "charger",
+   "footprint_hint": "R_0402",
+   "note": "",
+   "pins": {
+    "1": "CHG_COM",
+    "2": "CHG_COM_RC"
+   }
+  },
+  {
+   "ref": "C4",
+   "value": "220nF",
+   "lcsc": "basic",
+   "sheet": "charger",
+   "footprint_hint": "C_0402",
+   "note": "",
+   "pins": {
+    "1": "CHG_COM_RC",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "R8",
+   "value": "10k",
+   "lcsc": "basic",
+   "sheet": "charger",
+   "footprint_hint": "R_0402",
+   "note": "Open-drain pull-up; CHG_CHRG to ESP32 GPIO",
+   "pins": {
+    "1": "+3V3",
+    "2": "CHG_CHRG"
+   }
+  },
+  {
+   "ref": "R9",
+   "value": "10k",
+   "lcsc": "basic",
+   "sheet": "charger",
+   "footprint_hint": "R_0402",
+   "note": "Open-drain pull-up; CHG_DONE to ESP32 GPIO",
+   "pins": {
+    "1": "+3V3",
+    "2": "CHG_DONE"
+   }
+  },
+  {
+   "ref": "TH1",
+   "value": "NTC 10k B3950",
+   "lcsc": "C2889049",
+   "sheet": "charger",
+   "footprint_hint": "R_0603",
+   "note": "Place against the main cell; firmware stops charging outside 0-45 C via CHG_OFF",
+   "pins": {
+    "1": "NTC_ADC",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "R31",
+   "value": "10k 1%",
+   "lcsc": "basic",
+   "sheet": "charger",
+   "footprint_hint": "R_0402",
+   "note": "NTC_ADC to an ESP32 ADC1 pin",
+   "pins": {
+    "1": "+3V3",
+    "2": "NTC_ADC"
+   }
+  },
+  {
+   "ref": "F3",
+   "value": "PTC ~5A hold 2920 (part to pick)",
+   "lcsc": "TBD",
+   "sheet": "pack",
+   "footprint_hint": "Fuse_2920",
+   "note": "Main cell, motherboard",
+   "pins": {
+    "1": "P+",
+    "2": "CELL_MAIN+"
+   }
+  },
+  {
+   "ref": "BT1",
+   "value": "18650 holder (main cell)",
+   "lcsc": "C5290175",
+   "sheet": "pack",
+   "footprint_hint": "BH-18650-A1AJ006",
+   "note": "",
+   "pins": {
+    "+": "CELL_MAIN+",
+    "-": "B-"
+   }
+  },
+  {
+   "ref": "U2",
+   "value": "HY2112-AB",
+   "lcsc": "C168763",
+   "sheet": "pack",
+   "footprint_hint": "SOT-23-6",
+   "note": "1S LFP protection, OCP 100 mV",
+   "pins": {
+    "1 OD": "PROT_OD",
+    "2 CS": "PROT_CS",
+    "3 OC": "PROT_OC",
+    "4 NC": "",
+    "5 VDD": "PROT_VDD",
+    "6 VSS": "B-"
+   }
+  },
+  {
+   "ref": "R1",
+   "value": "100R",
+   "lcsc": "basic",
+   "sheet": "pack",
+   "footprint_hint": "R_0402",
+   "note": "",
+   "pins": {
+    "1": "P+",
+    "2": "PROT_VDD"
+   }
+  },
+  {
+   "ref": "C5",
+   "value": "100nF",
+   "lcsc": "basic",
+   "sheet": "pack",
+   "footprint_hint": "C_0402",
+   "note": "",
+   "pins": {
+    "1": "PROT_VDD",
+    "2": "B-"
+   }
+  },
+  {
+   "ref": "R2",
+   "value": "2k",
+   "lcsc": "basic",
+   "sheet": "pack",
+   "footprint_hint": "R_0402",
+   "note": "",
+   "pins": {
+    "1": "PROT_CS",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "M1",
+   "value": "WSD20100DN56",
+   "lcsc": "C5185318",
+   "sheet": "pack",
+   "footprint_hint": "DFN5x6-8",
+   "note": "Discharge FET; pinout assumed (1-3 S, 4 G, 5-8+pad D), confirm",
+   "pins": {
+    "1-3 S": "B-",
+    "4 G": "PROT_OD",
+    "5-8 D": "PROT_MID"
+   }
+  },
+  {
+   "ref": "M2",
+   "value": "WSD20100DN56",
+   "lcsc": "C5185318",
+   "sheet": "pack",
+   "footprint_hint": "DFN5x6-8",
+   "note": "Charge FET; back-to-back with M1 (common drain)",
+   "pins": {
+    "1-3 S": "GND",
+    "4 G": "PROT_OC",
+    "5-8 D": "PROT_MID"
+   }
+  },
+  {
+   "ref": "R30",
+   "value": "100k 1%",
+   "lcsc": "basic",
+   "sheet": "pack",
+   "footprint_hint": "R_0402",
+   "note": "VBAT sense to ESP32 ADC1 pin; firmware cut-off 2.5 V",
+   "pins": {
+    "1": "P+",
+    "2": "VBAT_ADC"
+   }
+  },
+  {
+   "ref": "R32",
+   "value": "100k 1%",
+   "lcsc": "basic",
+   "sheet": "pack",
+   "footprint_hint": "R_0402",
+   "note": "",
+   "pins": {
+    "1": "VBAT_ADC",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "C6",
+   "value": "100nF",
+   "lcsc": "basic",
+   "sheet": "pack",
+   "footprint_hint": "C_0402",
+   "note": "",
+   "pins": {
+    "1": "VBAT_ADC",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "F4",
+   "value": "PTC 3A hold 24V 1812",
+   "lcsc": "C2892380",
+   "sheet": "cardinal_N",
+   "footprint_hint": "Fuse_1812",
+   "note": "On the cardinal board next to its cell; P+ and B- reach it through ribbon pins 7-12 and 1-6",
+   "pins": {
+    "1": "P+",
+    "2": "CELL_N+"
+   }
+  },
+  {
+   "ref": "F5",
+   "value": "PTC 3A hold 24V 1812",
+   "lcsc": "C2892380",
+   "sheet": "cardinal_E",
+   "footprint_hint": "Fuse_1812",
+   "note": "On the cardinal board next to its cell; P+ and B- reach it through ribbon pins 7-12 and 1-6",
+   "pins": {
+    "1": "P+",
+    "2": "CELL_E+"
+   }
+  },
+  {
+   "ref": "F6",
+   "value": "PTC 3A hold 24V 1812",
+   "lcsc": "C2892380",
+   "sheet": "cardinal_W",
+   "footprint_hint": "Fuse_1812",
+   "note": "On the cardinal board next to its cell; P+ and B- reach it through ribbon pins 7-12 and 1-6",
+   "pins": {
+    "1": "P+",
+    "2": "CELL_W+"
+   }
+  },
+  {
+   "ref": "U3",
+   "value": "TPS61088RHLR",
+   "lcsc": "C87357",
+   "sheet": "boost_5v",
+   "footprint_hint": "VQFN-20 3.5x4.5",
+   "note": "MODE left open = PFM",
+   "pins": {
+    "1 VCC": "BST_VCC",
+    "2 EN": "BST_EN",
+    "3 FSW": "BST_FSW",
+    "4-7 SW": "BST_SW",
+    "8 BOOT": "BST_BOOT",
+    "9 VIN": "P+",
+    "10 SS": "BST_SS",
+    "11-12 NC": "GND",
+    "13 MODE": "",
+    "14-16 VOUT": "+5V",
+    "17 FB": "BST_FB",
+    "18 COMP": "BST_COMP",
+    "19 ILIM": "BST_ILIM",
+    "20 AGND": "GND",
+    "21 PGND/EP": "GND"
+   }
+  },
+  {
+   "ref": "L2",
+   "value": "2.2uH Isat 18A 7mR (FXL1040-2R2-M)",
+   "lcsc": "C167228",
+   "sheet": "boost_5v",
+   "footprint_hint": "L_11.5x10",
+   "note": "",
+   "pins": {
+    "1": "P+",
+    "2": "BST_SW"
+   }
+  },
+  {
+   "ref": "C10A",
+   "value": "22uF 25V",
+   "lcsc": "C45783",
+   "sheet": "boost_5v",
+   "footprint_hint": "C_0805",
+   "note": "",
+   "pins": {
+    "1": "P+",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "C10B",
+   "value": "22uF 25V",
+   "lcsc": "C45783",
+   "sheet": "boost_5v",
+   "footprint_hint": "C_0805",
+   "note": "",
+   "pins": {
+    "1": "P+",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "C10C",
+   "value": "100nF",
+   "lcsc": "basic",
+   "sheet": "boost_5v",
+   "footprint_hint": "C_0402",
+   "note": "At VIN pin",
+   "pins": {
+    "1": "P+",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "C11",
+   "value": "100nF",
+   "lcsc": "basic",
+   "sheet": "boost_5v",
+   "footprint_hint": "C_0402",
+   "note": "",
+   "pins": {
+    "1": "BST_BOOT",
+    "2": "BST_SW"
+   }
+  },
+  {
+   "ref": "R10",
+   "value": "316k 1%",
+   "lcsc": "basic",
+   "sheet": "boost_5v",
+   "footprint_hint": "R_0402",
+   "note": "~500 kHz; VERIFY against datasheet eq. 2",
+   "pins": {
+    "1": "BST_FSW",
+    "2": "BST_SW"
+   }
+  },
+  {
+   "ref": "C15",
+   "value": "2.2uF",
+   "lcsc": "basic",
+   "sheet": "boost_5v",
+   "footprint_hint": "C_0402",
+   "note": "",
+   "pins": {
+    "1": "BST_VCC",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "R15",
+   "value": "1k",
+   "lcsc": "basic",
+   "sheet": "boost_5v",
+   "footprint_hint": "R_0402",
+   "note": "Series from ESP32 GPIO; EN has internal 800k pull-down",
+   "pins": {
+    "1": "BST_EN",
+    "2": "ESP_5V_EN"
+   }
+  },
+  {
+   "ref": "C12A",
+   "value": "22uF 25V",
+   "lcsc": "C45783",
+   "sheet": "boost_5v",
+   "footprint_hint": "C_0805",
+   "note": "",
+   "pins": {
+    "1": "+5V",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "C12B",
+   "value": "22uF 25V",
+   "lcsc": "C45783",
+   "sheet": "boost_5v",
+   "footprint_hint": "C_0805",
+   "note": "",
+   "pins": {
+    "1": "+5V",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "C12C",
+   "value": "22uF 25V",
+   "lcsc": "C45783",
+   "sheet": "boost_5v",
+   "footprint_hint": "C_0805",
+   "note": "",
+   "pins": {
+    "1": "+5V",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "C12D",
+   "value": "22uF 25V",
+   "lcsc": "C45783",
+   "sheet": "boost_5v",
+   "footprint_hint": "C_0805",
+   "note": "",
+   "pins": {
+    "1": "+5V",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "R11",
+   "value": "182k 1%",
+   "lcsc": "basic",
+   "sheet": "boost_5v",
+   "footprint_hint": "R_0402",
+   "note": "VOUT = 1.204*(1+182/56) = 5.10 V",
+   "pins": {
+    "1": "+5V",
+    "2": "BST_FB"
+   }
+  },
+  {
+   "ref": "R12",
+   "value": "56k 1%",
+   "lcsc": "basic",
+   "sheet": "boost_5v",
+   "footprint_hint": "R_0402",
+   "note": "",
+   "pins": {
+    "1": "BST_FB",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "R13",
+   "value": "6.8k",
+   "lcsc": "basic",
+   "sheet": "boost_5v",
+   "footprint_hint": "R_0402",
+   "note": "Compensation starting point; VERIFY",
+   "pins": {
+    "1": "BST_COMP",
+    "2": "BST_COMP_RC"
+   }
+  },
+  {
+   "ref": "C13",
+   "value": "6.8nF",
+   "lcsc": "basic",
+   "sheet": "boost_5v",
+   "footprint_hint": "C_0402",
+   "note": "Compensation starting point; VERIFY",
+   "pins": {
+    "1": "BST_COMP_RC",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "R14",
+   "value": "120k 1%",
+   "lcsc": "basic",
+   "sheet": "boost_5v",
+   "footprint_hint": "R_0402",
+   "note": "9.9 A peak limit (PFM), >= 8.6 A worst case",
+   "pins": {
+    "1": "BST_ILIM",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "C14",
+   "value": "47nF",
+   "lcsc": "basic",
+   "sheet": "boost_5v",
+   "footprint_hint": "C_0402",
+   "note": "~11 ms soft start",
+   "pins": {
+    "1": "BST_SS",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "U4",
+   "value": "TPS63802DLAR",
+   "lcsc": "C2845237",
+   "sheet": "buckboost_3v3",
+   "footprint_hint": "VSON-10 3x2",
+   "note": "",
+   "pins": {
+    "1 EN": "BB_EN",
+    "2 MODE": "BB_MODE",
+    "3 AGND": "GND",
+    "4 FB": "BB_FB",
+    "5 PG": "BB_PG",
+    "6 VOUT": "+3V3",
+    "7 L2": "BB_L2",
+    "8 GND": "GND",
+    "9 L1": "BB_L1",
+    "10 VIN": "P+"
+   }
+  },
+  {
+   "ref": "L3",
+   "value": "0.47uH Isat>=4A DCR<=25mR (part to pick)",
+   "lcsc": "TBD",
+   "sheet": "buckboost_3v3",
+   "footprint_hint": "L_2520 or 4x4",
+   "note": "TI suggests Coilcraft XFL4015-471ME",
+   "pins": {
+    "1": "BB_L1",
+    "2": "BB_L2"
+   }
+  },
+  {
+   "ref": "C20",
+   "value": "22uF 25V",
+   "lcsc": "C45783",
+   "sheet": "buckboost_3v3",
+   "footprint_hint": "C_0805",
+   "note": "",
+   "pins": {
+    "1": "P+",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "R20",
+   "value": "137k 1%",
+   "lcsc": "basic",
+   "sheet": "buckboost_3v3",
+   "footprint_hint": "R_0402",
+   "note": "EN on above 2.6 V, off below ~2.37 V",
+   "pins": {
+    "1": "P+",
+    "2": "BB_EN"
+   }
+  },
+  {
+   "ref": "R21",
+   "value": "100k 1%",
+   "lcsc": "basic",
+   "sheet": "buckboost_3v3",
+   "footprint_hint": "R_0402",
+   "note": "",
+   "pins": {
+    "1": "BB_EN",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "R24",
+   "value": "100k",
+   "lcsc": "basic",
+   "sheet": "buckboost_3v3",
+   "footprint_hint": "R_0402",
+   "note": "MODE must not float: power-save by default; optional ESP32 GPIO via ESP_BB_MODE for PWM while recording audio",
+   "pins": {
+    "1": "BB_MODE",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "R26",
+   "value": "1k",
+   "lcsc": "basic",
+   "sheet": "buckboost_3v3",
+   "footprint_hint": "R_0402",
+   "note": "Optional (DNP if unused)",
+   "pins": {
+    "1": "BB_MODE",
+    "2": "ESP_BB_MODE"
+   }
+  },
+  {
+   "ref": "C21A",
+   "value": "22uF 25V",
+   "lcsc": "C45783",
+   "sheet": "buckboost_3v3",
+   "footprint_hint": "C_0805",
+   "note": "",
+   "pins": {
+    "1": "+3V3",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "C21B",
+   "value": "22uF 25V",
+   "lcsc": "C45783",
+   "sheet": "buckboost_3v3",
+   "footprint_hint": "C_0805",
+   "note": "Second output cap for ToF/WiFi peaks",
+   "pins": {
+    "1": "+3V3",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "R22",
+   "value": "511k 1%",
+   "lcsc": "basic",
+   "sheet": "buckboost_3v3",
+   "footprint_hint": "R_0402",
+   "note": "VOUT = 0.5*(1+511/91) = 3.31 V",
+   "pins": {
+    "1": "+3V3",
+    "2": "BB_FB"
+   }
+  },
+  {
+   "ref": "R23",
+   "value": "91k 1%",
+   "lcsc": "basic",
+   "sheet": "buckboost_3v3",
+   "footprint_hint": "R_0402",
+   "note": "Must be <= 100k (TI)",
+   "pins": {
+    "1": "BB_FB",
+    "2": "GND"
+   }
+  },
+  {
+   "ref": "R25",
+   "value": "100k",
+   "lcsc": "basic",
+   "sheet": "buckboost_3v3",
+   "footprint_hint": "R_0402",
+   "note": "PG pull-up (optional)",
+   "pins": {
+    "1": "+3V3",
+    "2": "BB_PG"
+   }
+  }
+ ],
+ "nets": {
+  "+3V3": [
+   "C21A.1",
+   "C21B.1",
+   "R22.1",
+   "R25.1",
+   "R31.1",
+   "R8.1",
+   "R9.1",
+   "U4.6"
+  ],
+  "+5V": [
+   "C12A.1",
+   "C12B.1",
+   "C12C.1",
+   "C12D.1",
+   "R11.1",
+   "U3.14-16"
+  ],
+  "B-": [
+   "BT1.-",
+   "C5.2",
+   "M1.1-3",
+   "U2.6"
+  ],
+  "BB_EN": [
+   "R20.2",
+   "R21.1",
+   "U4.1"
+  ],
+  "BB_FB": [
+   "R22.2",
+   "R23.1",
+   "U4.4"
+  ],
+  "BB_L1": [
+   "L3.1",
+   "U4.9"
+  ],
+  "BB_L2": [
+   "L3.2",
+   "U4.7"
+  ],
+  "BB_MODE": [
+   "R24.1",
+   "R26.1",
+   "U4.2"
+  ],
+  "BB_PG": [
+   "R25.2",
+   "U4.5"
+  ],
+  "BST_BOOT": [
+   "C11.1",
+   "U3.8"
+  ],
+  "BST_COMP": [
+   "R13.1",
+   "U3.18"
+  ],
+  "BST_COMP_RC": [
+   "C13.1",
+   "R13.2"
+  ],
+  "BST_EN": [
+   "R15.1",
+   "U3.2"
+  ],
+  "BST_FB": [
+   "R11.2",
+   "R12.1",
+   "U3.17"
+  ],
+  "BST_FSW": [
+   "R10.1",
+   "U3.3"
+  ],
+  "BST_ILIM": [
+   "R14.1",
+   "U3.19"
+  ],
+  "BST_SS": [
+   "C14.1",
+   "U3.10"
+  ],
+  "BST_SW": [
+   "C11.2",
+   "L2.2",
+   "R10.2",
+   "U3.4-7"
+  ],
+  "BST_VCC": [
+   "C15.1",
+   "U3.1"
+  ],
+  "CELL_E+": [
+   "F5.2"
+  ],
+  "CELL_MAIN+": [
+   "BT1.+",
+   "F3.2"
+  ],
+  "CELL_N+": [
+   "F4.2"
+  ],
+  "CELL_W+": [
+   "F6.2"
+  ],
+  "CHG_CHRG": [
+   "R8.2",
+   "U1.3"
+  ],
+  "CHG_COM": [
+   "R5.1",
+   "U1.5"
+  ],
+  "CHG_COM_RC": [
+   "C4.1",
+   "R5.2"
+  ],
+  "CHG_CSP": [
+   "L1.2",
+   "RCS.1",
+   "U1.8"
+  ],
+  "CHG_DONE": [
+   "R9.2",
+   "U1.4"
+  ],
+  "CHG_DRV": [
+   "Q1.4",
+   "U1.10"
+  ],
+  "CHG_MPPT": [
+   "Q2.3",
+   "R3.2",
+   "R4.1",
+   "U1.6"
+  ],
+  "CHG_OFF": [
+   "Q2.1",
+   "R6.1",
+   "R7.1"
+  ],
+  "CHG_SW": [
+   "D2.K",
+   "L1.1",
+   "Q1.5",
+   "Q1.6",
+   "Q1.7",
+   "Q1.8"
+  ],
+  "CHG_VCC": [
+   "C1A.1",
+   "C1B.1",
+   "C1C.1",
+   "C3.2",
+   "D1.K",
+   "Q1.1",
+   "Q1.2",
+   "Q1.3",
+   "R3.1",
+   "U1.9"
+  ],
+  "CHG_VG": [
+   "C3.1",
+   "U1.1"
+  ],
+  "ESP_5V_EN": [
+   "R15.2"
+  ],
+  "ESP_BB_MODE": [
+   "R26.2"
+  ],
+  "ESP_CHG_OFF": [
+   "R7.2"
+  ],
+  "GND": [
+   "C10A.2",
+   "C10B.2",
+   "C10C.2",
+   "C12A.2",
+   "C12B.2",
+   "C12C.2",
+   "C12D.2",
+   "C13.2",
+   "C14.2",
+   "C15.2",
+   "C1A.2",
+   "C1B.2",
+   "C1C.2",
+   "C20.2",
+   "C21A.2",
+   "C21B.2",
+   "C2A.2",
+   "C2B.2",
+   "C4.2",
+   "C6.2",
+   "D2.A",
+   "M2.1-3",
+   "Q2.2",
+   "R12.2",
+   "R14.2",
+   "R2.2",
+   "R21.2",
+   "R23.2",
+   "R24.2",
+   "R32.2",
+   "R4.2",
+   "R6.2",
+   "TH1.2",
+   "U1.2",
+   "U3.11-12",
+   "U3.20",
+   "U3.21",
+   "U4.3",
+   "U4.8"
+  ],
+  "NTC_ADC": [
+   "R31.2",
+   "TH1.1"
+  ],
+  "P+": [
+   "C10A.1",
+   "C10B.1",
+   "C10C.1",
+   "C20.1",
+   "C2A.1",
+   "C2B.1",
+   "F3.1",
+   "F4.1",
+   "F5.1",
+   "F6.1",
+   "L2.1",
+   "R1.1",
+   "R20.1",
+   "R30.1",
+   "RCS.2",
+   "U1.7",
+   "U3.9",
+   "U4.10"
+  ],
+  "PROT_CS": [
+   "R2.1",
+   "U2.2"
+  ],
+  "PROT_MID": [
+   "M1.5-8",
+   "M2.5-8"
+  ],
+  "PROT_OC": [
+   "M2.4",
+   "U2.3"
+  ],
+  "PROT_OD": [
+   "M1.4",
+   "U2.1"
+  ],
+  "PROT_VDD": [
+   "C5.1",
+   "R1.2",
+   "U2.5"
+  ],
+  "VBAT_ADC": [
+   "C6.1",
+   "R30.2",
+   "R32.1"
+  ],
+  "VBUS_F": [
+   "D1.A",
+   "F2.2"
+  ],
+  "VBUS_IN": [
+   "F2.1"
+  ]
+ }
+}

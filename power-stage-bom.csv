@@ -1,0 +1,70 @@
+Ref,Value,LCSC,Sheet,Footprint hint,Note
+F2,PTC 3A hold 24V,C2892380,charger,Fuse_1812,Input resettable fuse; VBUS_IN comes from the USB-C / CH224D sink
+D1,SS54,C22452,charger,D_SMA,Blocks pack back-feeding VBUS through Q1 body diode
+C1A,22uF 25V X5R,C77091,charger,C_1206,
+C1B,22uF 25V X5R,C77091,charger,C_1206,
+C1C,100nF,basic,charger,C_0402,
+U1,CN3801,C840499,charger,SSOP-10,"LFP buck charger, CV 3.625 V, Icc = 120 mV / RCS"
+Q1,AO4435,C5224296,charger,SOIC-8,"P-MOSFET; standard SO-8 single-FET pinout, confirm in datasheet"
+D2,SS54,C22452,charger,D_SMA,Freewheel diode
+L1,10uH Isat 5.5A (FXL0630-100-M),C167223,charger,L_7.0x6.6,
+RCS,30mR 1% 1W,C154643,charger,R_1206,4 A charge; Kelvin-route CSP and BAT sense traces to the pads
+C2A,22uF 25V,C45783,charger,C_0805,
+C2B,22uF 25V,C45783,charger,C_0805,
+C3,100nF,basic,charger,C_0402,"VG to VCC (not to GND), per CN3801 datasheet"
+R3,274k 1%,basic,charger,R_0402,MPPT divider: VCC regulated >= 1.205*(1+R3/R4) = 4.51 V
+R4,100k 1%,basic,charger,R_0402,
+Q2,AO3400A,C20917,charger,SOT-23,Pulls MPPT low to stop charging (bench-verify)
+R6,100k,basic,charger,R_0402,Charging enabled by default
+R7,1k,basic,charger,R_0402,Series resistor from ESP32 GPIO
+R5,120R,basic,charger,R_0402,
+C4,220nF,basic,charger,C_0402,
+R8,10k,basic,charger,R_0402,Open-drain pull-up; CHG_CHRG to ESP32 GPIO
+R9,10k,basic,charger,R_0402,Open-drain pull-up; CHG_DONE to ESP32 GPIO
+TH1,NTC 10k B3950,C2889049,charger,R_0603,Place against the main cell; firmware stops charging outside 0-45 C via CHG_OFF
+R31,10k 1%,basic,charger,R_0402,NTC_ADC to an ESP32 ADC1 pin
+F3,PTC ~5A hold 2920 (part to pick),TBD,pack,Fuse_2920,"Main cell, motherboard"
+BT1,18650 holder (main cell),C5290175,pack,BH-18650-A1AJ006,
+U2,HY2112-AB,C168763,pack,SOT-23-6,"1S LFP protection, OCP 100 mV"
+R1,100R,basic,pack,R_0402,
+C5,100nF,basic,pack,C_0402,
+R2,2k,basic,pack,R_0402,
+M1,WSD20100DN56,C5185318,pack,DFN5x6-8,"Discharge FET; pinout assumed (1-3 S, 4 G, 5-8+pad D), confirm"
+M2,WSD20100DN56,C5185318,pack,DFN5x6-8,Charge FET; back-to-back with M1 (common drain)
+R30,100k 1%,basic,pack,R_0402,VBAT sense to ESP32 ADC1 pin; firmware cut-off 2.5 V
+R32,100k 1%,basic,pack,R_0402,
+C6,100nF,basic,pack,C_0402,
+F4,PTC 3A hold 24V 1812,C2892380,cardinal_N,Fuse_1812,On the cardinal board next to its cell; P+ and B- reach it through ribbon pins 7-12 and 1-6
+F5,PTC 3A hold 24V 1812,C2892380,cardinal_E,Fuse_1812,On the cardinal board next to its cell; P+ and B- reach it through ribbon pins 7-12 and 1-6
+F6,PTC 3A hold 24V 1812,C2892380,cardinal_W,Fuse_1812,On the cardinal board next to its cell; P+ and B- reach it through ribbon pins 7-12 and 1-6
+U3,TPS61088RHLR,C87357,boost_5v,VQFN-20 3.5x4.5,MODE left open = PFM
+L2,2.2uH Isat 18A 7mR (FXL1040-2R2-M),C167228,boost_5v,L_11.5x10,
+C10A,22uF 25V,C45783,boost_5v,C_0805,
+C10B,22uF 25V,C45783,boost_5v,C_0805,
+C10C,100nF,basic,boost_5v,C_0402,At VIN pin
+C11,100nF,basic,boost_5v,C_0402,
+R10,316k 1%,basic,boost_5v,R_0402,~500 kHz; VERIFY against datasheet eq. 2
+C15,2.2uF,basic,boost_5v,C_0402,
+R15,1k,basic,boost_5v,R_0402,Series from ESP32 GPIO; EN has internal 800k pull-down
+C12A,22uF 25V,C45783,boost_5v,C_0805,
+C12B,22uF 25V,C45783,boost_5v,C_0805,
+C12C,22uF 25V,C45783,boost_5v,C_0805,
+C12D,22uF 25V,C45783,boost_5v,C_0805,
+R11,182k 1%,basic,boost_5v,R_0402,VOUT = 1.204*(1+182/56) = 5.10 V
+R12,56k 1%,basic,boost_5v,R_0402,
+R13,6.8k,basic,boost_5v,R_0402,Compensation starting point; VERIFY
+C13,6.8nF,basic,boost_5v,C_0402,Compensation starting point; VERIFY
+R14,120k 1%,basic,boost_5v,R_0402,"9.9 A peak limit (PFM), >= 8.6 A worst case"
+C14,47nF,basic,boost_5v,C_0402,~11 ms soft start
+U4,TPS63802DLAR,C2845237,buckboost_3v3,VSON-10 3x2,
+L3,0.47uH Isat>=4A DCR<=25mR (part to pick),TBD,buckboost_3v3,L_2520 or 4x4,TI suggests Coilcraft XFL4015-471ME
+C20,22uF 25V,C45783,buckboost_3v3,C_0805,
+R20,137k 1%,basic,buckboost_3v3,R_0402,"EN on above 2.6 V, off below ~2.37 V"
+R21,100k 1%,basic,buckboost_3v3,R_0402,
+R24,100k,basic,buckboost_3v3,R_0402,MODE must not float: power-save by default; optional ESP32 GPIO via ESP_BB_MODE for PWM while recording audio
+R26,1k,basic,buckboost_3v3,R_0402,Optional (DNP if unused)
+C21A,22uF 25V,C45783,buckboost_3v3,C_0805,
+C21B,22uF 25V,C45783,buckboost_3v3,C_0805,Second output cap for ToF/WiFi peaks
+R22,511k 1%,basic,buckboost_3v3,R_0402,VOUT = 0.5*(1+511/91) = 3.31 V
+R23,91k 1%,basic,buckboost_3v3,R_0402,Must be <= 100k (TI)
+R25,100k,basic,buckboost_3v3,R_0402,PG pull-up (optional)
