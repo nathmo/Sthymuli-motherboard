@@ -836,7 +836,7 @@
         "uuid": "a56c3281-40b7-4048-95ca-500415dc80a4"
       }
     ],
-    "used_designators": "R1-4,R6,J5,U3-5,#PWR3,#PWR7,#PWR9,#PWR12,#PWR45-46,L1,C8",
+    "used_designators": "",
     "variants": [
       {
         "name": "production"
@@ -847,6 +847,10 @@
     [
       "a56c3281-40b7-4048-95ca-500415dc80a4",
       "Sthymuli-motherboard"
+    ],
+    [
+      "f64d582e-b4eb-48a2-8939-9197005ebb51",
+      "Power stage v2"
     ]
   ],
   "text_variables": {

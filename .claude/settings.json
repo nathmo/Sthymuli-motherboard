@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Force | Select-Object Mode,Length,LastWriteTime,Name | Format-Table -AutoSize; Get-ChildItem lib -Recurse | Select-Object FullName,Length | Format-Table -AutoSize; Get-Process | Where-Object { $_.ProcessName -match 'kicad|eeschema|pcbnew' } | Select-Object ProcessName,Id,MainWindowTitle; \\(Get-Command kicad-cli -ErrorAction SilentlyContinue\\).Source; \\(Get-Command easyeda2kicad -ErrorAction SilentlyContinue\\).Source; Get-ChildItem \"C:\\\\Program Files\\\\KiCad\" -ErrorAction SilentlyContinue)"
+    ]
+  }
+}
