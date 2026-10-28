@@ -836,7 +836,7 @@
         "uuid": "a56c3281-40b7-4048-95ca-500415dc80a4"
       }
     ],
-    "used_designators": "",
+    "used_designators": "Q10,KEY1-2,D8-9,#PWR4-5,#PWR7,#PWR9-10,#PWR59,#PWR64-71,#PWR76-83,#PWR85,#PWR88-91,#PWR305,#PWR318,C3-5,C55,C77,C79-85,R1-7,R34-36,R49,R52-58,U1-3,U13,U15-16,U21-23",
     "variants": [
       {
         "name": "production"
@@ -849,8 +849,20 @@
       "Sthymuli-motherboard"
     ],
     [
-      "f64d582e-b4eb-48a2-8939-9197005ebb51",
-      "Power stage v2"
+      "a05f1843-89db-4486-b283-0f4f337e7fb4",
+      "3V3BuckBoost"
+    ],
+    [
+      "12d1b293-a116-4aca-9c37-7b28bd65edcf",
+      "ChargerPD"
+    ],
+    [
+      "f0fcfb18-6d8f-4647-af8b-4423b5903c97",
+      "BMS"
+    ],
+    [
+      "b31bd8fe-79d3-4804-9706-451f0a00487d",
+      "5VBoost"
     ]
   ],
   "text_variables": {
